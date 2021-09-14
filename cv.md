@@ -70,3 +70,12 @@ function findVowel(x) {
 findVowel(str);
 
 ```
+___
+### Languages
+
+* ENGLISH C1, vast experience in translation of medical literature
+* ITALIAN C2
+* JAPANESE A2
+* TURKISH B2
+* RUSSIAN native
+* UKRAINIAN native
