@@ -4,8 +4,8 @@
 
 ![My photo](profile-min.jpg)
 
-___tel. +393895922455___
-__natalinebo2014@yandex.ru__
+___tel. +393895922455___\
+__natalinebo2014@yandex.ru__\
 ___51018, via Del Melo 10/L, Pieve a Nievole, Italy___
 
 ___
