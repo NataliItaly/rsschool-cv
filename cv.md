@@ -2,7 +2,7 @@
 
 ## Junior Front End Developer 
 
-![My photo](profile_pict.jpg)
+![My photo](profile-min.jpg)
 
 ___tel. +393895922455___
 __natalinebo2014@yandex.ru__
