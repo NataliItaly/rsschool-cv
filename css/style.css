@@ -160,3 +160,40 @@ h2 {
     color: #4b4b4b;
 }
 
+@media (max-width: 991.98px) {
+    .cv-left h1, .cv-left h2, .cv-left h3, .cv-left h4 {
+       font-size: 1.3rem; 
+    }
+    .cv-left ul {
+        line-height: 150%;
+        padding-left: 25px;
+    }
+    footer hr {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo {
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .cv {
+        margin-top: 0;
+    }
+    .photo-block img {
+        display: block;
+        max-width: 50%;
+        margin: 20px auto;
+    }
+    footer hr {
+        display: none;
+    }
+    .logo {
+        background-color: #fff;
+    }
+    
+}
+
