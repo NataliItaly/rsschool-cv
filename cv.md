@@ -45,3 +45,28 @@ ___
 * JavaScript - The complete Guide by Maximilian Schwarzmüller (in progress)
 * The Complete JavaScript Course 2021 by Jonas Schmedtmann (in progress)
 * Web Developer by Petrichenko (in progress)
+___
+### Code example
+
+```
+let str = 'John Doe hs seven red pples under his bsket';
+let string = 'aeiou';
+
+function findVowel(x) {
+    let arr_work = x.split('');
+    let arr_temp = [];
+    for (let i = 0; i < string.length; i++) {
+        arr_work.includes(arr_work[i]);
+        arr_temp.push(arr_work.includes(string[i]));
+    }
+    
+    let out = '';
+    for (let i = 0; i < arr_temp.length; i++) {
+        //console.log(arr_temp[i]);
+        if (arr_temp[i] === false) out = i;
+    }
+    return out;
+}
+findVowel(str);
+
+```
