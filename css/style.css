@@ -63,3 +63,100 @@ h1, h2, h3  {
 #mini-project > a {
     text-decoration: underline;
 }
+
+/*style for the right column */
+
+.cv-right {
+    background: #fff;
+    min-height: 30vh;
+    color: #131313;
+}
+
+article {
+    margin-top: 75px;
+    font-family: 'IBM Plex Serif', serif;
+} 
+
+.color-grey {
+    color: #4b4b4b;
+}
+
+h3 {
+    margin-left: 40px;
+}
+
+.italic {
+    font-style: italic;
+    font-size: .8rem;
+    text-transform: none;
+    font-family: Arial, sans-serif;
+}
+
+.company-name {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.cv-right a {
+    color: #4b4b4b;
+    text-decoration: underline;
+}
+
+.job-title {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-left: 12px;
+}
+
+.code {
+    padding-left: 20px;
+}
+
+/* footer style */
+
+.links {
+    background-color: #fff;
+    color: #4b4b4b;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    background-color: #6e777c;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links hr {
+    color: #6e777c;
+    margin-top: 0;
+    
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links a {
+    color: #4b4b4b;
+}
+
