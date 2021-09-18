@@ -78,16 +78,54 @@ h1, h2, h3  {
     text-decoration: underline;
 }
 
-/*style for the main column */
+/*header style */
+
+header {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+header > nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header > nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.header-nav > ul > li > a {
+    text-decoration: none;
+}
+
+.header-nav > ul > li > a:hover {
+    color: #6e777c;
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2.header-section {
+    margin-left: 0;
+}
+
+/* main block styles*/
 
 .main {
     background: #fff;
     min-height: 30vh;
     color: #131313;
+    padding-left: 0;
+}
+
+header, .header-section, #about-me, #education, #code-example {
+    padding-left: 15px;
 }
 
 article {
-    margin-top: 75px;
     font-family: 'IBM Plex Serif', serif;
 } 
 
@@ -97,18 +135,6 @@ article {
 
 h3 {
     margin-left: 40px;
-}
-
-.italic {
-    font-style: italic;
-    font-size: .8rem;
-    text-transform: none;
-    font-family: Arial, sans-serif;
-}
-
-.company-name {
-    font-size: 1.1rem;
-    text-transform: uppercase;
 }
 
 .main a {
