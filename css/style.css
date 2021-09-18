@@ -29,6 +29,7 @@ h1, h2, h3  {
     background: #6e777c;
     color: #fff;
     min-height: 30vh;
+    
 }
 
 .burger {
@@ -78,7 +79,9 @@ h1, h2, h3  {
     text-decoration: underline;
 }
 
-/*header style */
+/* style for the main */
+
+/* header style */
 
 header {
     font-size: 12px;
@@ -112,7 +115,7 @@ h2.header-section {
     margin-left: 0;
 }
 
-/* main block styles*/
+/* main block style */
 
 .main {
     background: #fff;
@@ -201,6 +204,7 @@ footer {
 .links hr {
     color: #6e777c;
     margin-top: 0;
+    
 }
 
 .links ul {
@@ -212,13 +216,15 @@ footer {
     color: #4b4b4b;
 }
 
+
+
 @media (max-width: 991.98px) {
     .container {
         margin: 0 auto;
         width: 100%;
     }
-    .aside h1, .aside h2, .aside h3 {
-       font-size: 1.2rem; 
+    .aside h1, .aside h2, .aside h3, .aside h4 {
+        font-size: 1.2rem; 
     }
     #languages > ul > li, .skills-list, #contacts {
         font-size: 0.8rem;
@@ -345,5 +351,8 @@ footer {
     .logo img {
         width: 100%;
     }
+    
+    
 }
+
 
