@@ -137,6 +137,12 @@ h3 {
     margin-left: 40px;
 }
 
+.header-section {
+    background-color: rgb(245 243 243);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .main a {
     color: #4b4b4b;
     text-decoration: underline;
@@ -159,16 +165,22 @@ h2 {
 
 /* footer style */
 
+footer {
+    display: flex;
+    background-color: rgb(245 243 243);
+    align-items: center;
+    justify-content: space-around;
+}
+
 .links {
-    background-color: #fff;
+    background-color: rgb(245 243 243);
     color: #4b4b4b;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: bold;
 }
 
 .logo {
-    background-color: #6e777c;
-    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,9 +189,9 @@ h2 {
 .logo a {
     display: block;
     width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-    background-color: #fff;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -189,11 +201,11 @@ h2 {
 .links hr {
     color: #6e777c;
     margin-top: 0;
-    
 }
 
 .links ul {
     list-style-type: none;
+    margin-bottom: 0;
 }
 
 .links a {
