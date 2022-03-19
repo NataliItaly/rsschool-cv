@@ -1,81 +1,149 @@
-/*background style */
-
-body {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+html {
+    scroll-behavior: smooth;
 }
 
-
-.body-bg {
-    background-image: url('../images/background-texture-mramor.jpg');
-    background-size: cover;
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
-
-.container {
-    border: 1px solid #4b4b4b;
-    box-shadow: 1px 1px 10px #000;
+/*Универсальное решение, которое убирает подсветку во всех браузерах и не только на input, но и на других элементах, в том числе select, button, a:*/
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
 }
-
-/* basic style for both columns */
-
-h1, h2, h3  {
-    font-family: 'IBM Plex Serif', serif;
-}
-
-/* style for the left column */
-
-.cv-left {
-    background: #6e777c;
-    color: #fff;
-    min-height: 30vh;
-}
-
-.photo-block {
-    margin-top: 50px;
-}
-
-.cv-left ul.contacts-block {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.cv-left .address {
-    font-style: italic;
-}
-
-.cv-left a {
-    color: #fff;
-}
-
-.cv-left a:hover {
+a {
     text-decoration: none;
+    color: #4b4b4b;
 }
-
-.cv-left ul {
-    line-height: 175%;
-    padding-left: 30px;
-}
-
-#mini-project {
-    margin-left: 20px;
-}
-
-#mini-project > a {
+a:hover {
     text-decoration: underline;
+    color: rgb(167, 164, 164);
 }
 
-/*style for the right column */
-
-.cv-right {
-    background: #fff;
-    min-height: 30vh;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+h1,
+h2,
+h3 {
+    font-family: "IBM Plex Serif", serif;
+}
+html,
+body {
+    height: 100%;
+    line-height: 1.2;
+    font-size: 22px;
+}
+body {
+    margin: 0 auto;
+    background-image: url(../images/background-texture-mramor.jpg);
     color: #131313;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
 }
+.container {
+    max-width: 1140px;
+    margin: 50px auto;
+    background-color: #ffffff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.profile-img {
+    width: 30%;
+    padding: 30px;
+    background-color: #6e777c;
+}
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+}
+.profile-img-wrapper {
+    padding-top: 20px;
+}
+.header-info {
+    width: 70%;
+    padding: 20px;
+    padding-left: 0;
+    position: relative;
+}
+.header-menu {
+    padding-left: 20px;
+    transition: 0.8s all ease;
+}
+.header-menu ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.header-menu li {
+    margin-right: 20px;
+}
+.header-menu ul a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.burger {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+}
+.burger .burger-line {
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: #4b4b4b;
+    position: absolute;
+    transition: 0.6s all ease;
+}
+.burger .burger-line:first-child {
+    top: 0;
+}
+.burger .burger-line:last-child {
+    bottom: 0;
+}
+.burger .burger-line:nth-child(2),
+.burger .burger-line:nth-child(3) {
+    top: 50%;
+}
+.burger-active .burger-line:nth-child(2) {
+    transform: rotate(45deg);
+}
+.burger-active .burger-line:nth-child(3) {
+    transform: rotate(-45deg);
+}
+.burger-active .burger-line:first-child,
+.burger-active .burger-line:last-child {
+    display: none;
+}
+.burger-active .burger-line {
+    background-color: #ffffff;
+}
+/*-------------*/
 
 article {
     margin-top: 75px;
-    font-family: 'IBM Plex Serif', serif;
-} 
+    font-family: "IBM Plex Serif", serif;
+}
 
 .color-grey {
     color: #4b4b4b;
@@ -87,7 +155,7 @@ h3 {
 
 .italic {
     font-style: italic;
-    font-size: .8rem;
+    font-size: 0.8rem;
     text-transform: none;
     font-family: Arial, sans-serif;
 }
@@ -149,7 +217,6 @@ h2 {
 .links hr {
     color: #6e777c;
     margin-top: 0;
-    
 }
 
 .links ul {
@@ -161,8 +228,11 @@ h2 {
 }
 
 @media (max-width: 991.98px) {
-    .cv-left h1, .cv-left h2, .cv-left h3, .cv-left h4 {
-       font-size: 1.3rem; 
+    .cv-left h1,
+    .cv-left h2,
+    .cv-left h3,
+    .cv-left h4 {
+        font-size: 1.3rem;
     }
     .cv-left ul {
         line-height: 150%;
@@ -194,6 +264,4 @@ h2 {
     .logo {
         background-color: #fff;
     }
-    
 }
-
