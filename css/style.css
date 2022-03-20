@@ -184,6 +184,9 @@ article p:first-of-type {
 article {
     width: 70%;
 }
+.hidden-title {
+    display: none;
+}
 article section {
     margin-bottom: 30px;
     padding-left: 20px;
