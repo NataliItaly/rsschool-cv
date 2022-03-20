@@ -308,7 +308,7 @@ h3 {
     filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%) contrast(100%);
 }
 .contacts-item:hover {
-    filter: invert(44%) sepia(37%) saturate(0%) hue-rotate(13deg) brightness(131%) contrast(181%);
+    color: rgb(104 74 74);
 }
 
 .footer {
@@ -527,7 +527,7 @@ h3 {
         background-color: #4b4b4b;
     }
     .footer .rs-logo {
-        padding-right: 0;
+        padding-left: 0;
         width: 200px;
     }
     .footer #links {
@@ -536,6 +536,7 @@ h3 {
     .footer .logo-link {
         padding-left: 0;
         text-align: center;
+        background-position-x: 0px;
     }
 }
 
@@ -590,6 +591,13 @@ h3 {
     }
     .code {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 440px) {
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
