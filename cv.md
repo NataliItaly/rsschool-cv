@@ -32,12 +32,15 @@ My strengths are:
 ___
 ### Experience
 
-[Mini project Weather App](https://krylovaweatherproject.netlify.app/?fbclid=IwAR1XM1dpk4FKUHFcXclpjZrJoUAU8kzFz7UbopFM8v8qOR9rE4wyQB_vsZo)
+* [Mini project Weather App](https://krylovaweatherproject.netlify.app/?fbclid=IwAR1XM1dpk4FKUHFcXclpjZrJoUAU8kzFz7UbopFM8v8qOR9rE4wyQB_vsZo)
+* [Language School WEb Site](https://nataliitaly.github.io/Language_school/?fbclid=IwAR1ztu1sh0KJnXY-ETmNIyuAv5eXUsHbTLNMNtr01o2LbbbNWi4M2lmWalQ)
+* [Eco Sound App](https://nataliitaly.github.io/file-storage/?fbclid=IwAR1Ou9pcPwRdB9r34f3O6_lqjedecdETb8wiOlrmBiedO51GbuwAV94PRwQ)
+* [Portfolio Web Site](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL/portfolio/?fbclid=IwAR1KRb_ScotvxtYlX2ynqv0j2LqSj_P_f7FUvOihW1T89udU_PKfdMdxhm4)
 
 ___
 ### Education
 
-* 1995-2000 Yaroslav Mudryi National Law University, Kharkiv, Ukraine
+* Yaroslav Mudryi National Law University, Kharkiv, Ukraine
 * HTML for JavaScript Developers by Alexander Lushchenko  [certificate](https://itgid.info/certificate/view?Certificate%5Buid%5D=h276nj5hav)
 * JavaScript 2.0 by Alexander Lushchenko  [certificate](https://itgid.info/certificate/view?Certificate%5Buid%5D=cmuweqve8j)
 * Arrays Methods by Alexander Lushchenko  [certificate](https://itgid.info/certificate/view?Certificate%5Buid%5D=fqhtz7jzs3) 

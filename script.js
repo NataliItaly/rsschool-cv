@@ -9,3 +9,4 @@ HEADERMENU.addEventListener('click', function () {
     BURGER.classList.toggle('burger-active');
     HEADERMENU.classList.toggle('menu-open');
 });
+
