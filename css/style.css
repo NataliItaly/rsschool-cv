@@ -98,6 +98,7 @@ body {
 .header-menu ul a {
     text-transform: uppercase;
     font-size: 12px;
+    transition: 0.6s all ease;
 }
 .burger {
     display: none;
@@ -346,134 +347,266 @@ h3 {
     padding-top: 30px;
     padding-bottom: 40px;
 }
-.footer .rs-logo a {
+.footer .logo-link {
     display: block;
+    width: 100%;
+    height: 50px;
     padding-left: 60px;
-}
-/*-------------*/
-
-article {
-    margin-top: 75px;
-    font-family: "IBM Plex Serif", serif;
+    background-image: url("../images/rs_school-min.svg");
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+    transition: 0.6s all ease;
 }
 
-.color-grey {
-    color: #4b4b4b;
+.footer .logo-link:hover {
+    filter: invert(50%) sepia(7%) saturate(494%) hue-rotate(157deg) brightness(90%) contrast(82%);
 }
 
-h3 {
-    margin-left: 40px;
-}
+/*--------------------media queries----------------------*/
 
-.italic {
-    font-style: italic;
-    font-size: 0.8rem;
-    text-transform: none;
-    font-family: Arial, sans-serif;
-}
-
-.company-name {
-    font-size: 1.1rem;
-    text-transform: uppercase;
-}
-
-.cv-right a {
-    color: #4b4b4b;
-    text-decoration: underline;
-}
-
-.job-title {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-h2 {
-    font-size: 1.8rem;
-    margin-left: 12px;
-}
-
-.code {
-    padding-left: 20px;
-}
-
-/* footer style */
-
-.links {
-    background-color: #fff;
-    color: #4b4b4b;
-    padding-top: 20px;
-    font-weight: bold;
-}
-
-.logo {
-    background-color: #6e777c;
-    padding-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo a {
-    display: block;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.links hr {
-    color: #6e777c;
-    margin-top: 0;
-}
-
-.links ul {
-    list-style-type: none;
-}
-
-.links a {
-    color: #4b4b4b;
-}
-
-@media (max-width: 991.98px) {
-    .cv-left h1,
-    .cv-left h2,
-    .cv-left h3,
-    .cv-left h4 {
-        font-size: 1.3rem;
-    }
-    .cv-left ul {
-        line-height: 150%;
-        padding-left: 25px;
-    }
-    footer hr {
-        display: none;
-    }
-}
-
-@media (max-width: 767px) {
-    .logo {
-        background-color: #fff;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .cv {
+@media (max-width: 972px) {
+    .container {
         margin-top: 0;
     }
-    .photo-block img {
+    .burger {
         display: block;
-        max-width: 50%;
-        margin: 20px auto;
     }
-    footer hr {
+    .header-info {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .header-menu {
+        height: 100vh;
+        background-color: #6e777c;
+        opacity: 0.9;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        overflow: scroll;
+        position: absolute;
+        transform: translate(-200%);
+    }
+    .header-menu ul {
+        flex-direction: column;
+        padding: 40px;
+        padding-left: 50px;
+    }
+    .header-menu li {
+        margin-bottom: 20px;
+    }
+    .header-menu ul a {
+        color: #ffffff;
+        font-size: 18px;
+    }
+    .header-menu.menu-open {
+        transform: translate(0);
+    }
+    hr {
         display: none;
     }
-    .logo {
-        background-color: #fff;
+    .profile-data {
+        padding-top: 70px;
+    }
+    .profile-position {
+        font-size: 1.2rem;
+    }
+    #code-example {
+        padding-right: 0;
+    }
+    .footer .rs-logo {
+        padding-right: 0;
+        background-color: rgb(245 243 243);
+    }
+}
+
+@media (max-width: 860px) {
+    .email {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 820px) {
+    .profile-title {
+        font-size: 1.5rem;
+    }
+    .about-title {
+        font-size: 1.2rem;
+    }
+    .profile-position {
+        font-size: 1rem;
+    }
+    .profile-data {
+        padding-left: 20px;
+        padding-top: 50px;
+        text-align: left;
+    }
+    .burger {
+        right: 20px;
+        top: 20px;
+    }
+    .profile-img {
+        padding: 20px;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    aside li {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 780px) {
+    .main {
+        flex-direction: column;
+    }
+    article {
+        width: 100%;
+        padding: 40px;
+    }
+    .header,
+    .profile-data {
+        background-color: #6e777c;
+    }
+    .profile-title,
+    .profile-position {
+        color: #ffffff;
+        text-align: left;
+    }
+    .burger .burger-line {
+        background-color: #ffffff;
+    }
+    .code {
+        border-radius: 30px;
+    }
+    aside {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        justify-content: space-around;
+        background-color: rgb(245 243 243);
+    }
+    aside > div {
+        width: 270px;
+        padding: 10px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        text-align: center;
+        color: #6e777c;
+        margin: 10px;
+    }
+    aside ul {
+        list-style: none;
+    }
+    aside > h3 {
+        color: #4b4b4b;
+    }
+    #contacts ul {
+        margin-left: 0;
+    }
+    .phone,
+    .email,
+    .location,
+    .discord {
+        filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%) contrast(0%);
+        background-position-x: 5px;
+    }
+    .location {
+        background-position-x: 2px;
+    }
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer,
+    .footer .rs-logo,
+    .footer .rs-logo .logo-container,
+    .footer #links {
+        background-color: #4b4b4b;
+    }
+    .footer .rs-logo {
+        padding-right: 0;
+        width: 200px;
+    }
+    .footer #links {
+        min-width: 170px;
+    }
+    .footer .logo-link {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 708px) {
+    .profile-data {
+        text-align: center;
+    }
+    .profile-title {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+    .profile-position {
+        font-size: 0.8rem;
+    }
+    .burger {
+        height: 25px;
+    }
+    .burger .burger-line {
+        width: 35px;
+    }
+
+    .profile-img {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .header {
+        flex-direction: column-reverse;
+    }
+    .header-info,
+    .profile-img {
+        width: 100%;
+    }
+    .profile-img {
+        padding: 0 70px 70px 70px;
+    }
+    .profile-img-wrapper {
+        padding-top: 0;
+    }
+    .profile-data {
+        background-color: #6e777c;
+    }
+    .header-info {
+        padding-bottom: 0;
+    }
+    .profile-position {
+        margin-bottom: 0;
+    }
+    article {
+        padding: 20px;
+    }
+    .code {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 390px) {
+    .profile-data {
+        text-align: left;
+    }
+    .profile-position > span {
+        display: block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .profile-position {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .profile-img {
+        padding: 20px;
     }
 }
