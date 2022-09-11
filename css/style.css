@@ -1,0 +1,56 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+/*Универсальное решение, которое убирает подсветку во всех браузерах и не только на input, но и на других элементах, в том числе select, button, a:*/
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+h1,
+h2,
+h3 {
+  font-family: "IBM Plex Serif", serif;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1.2;
+  font-size: 22px;
+}
+body {
+  margin: 0 auto;
+  background-image: url(../images/background-texture-mramor.jpg);
+  color: #131313;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1140px;
+  margin: 50px auto;
+  background-color: #ffffff;
+}
