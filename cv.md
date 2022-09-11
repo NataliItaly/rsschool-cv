@@ -12,3 +12,20 @@ ___
 
 ### About Me
 I am a curiouse and motivated person, apassionated of Web Development.\
+
+My strengths are:
+
+* flexible by nature and can quickly adapt to changing situations,  quickly find a common language with people.
+* meticulous and attentive to details.\
+* persistent and diligent, capable dedicate hours and hours to resolve a task.
+
+### Skills
+
+* HTML
+* CSS
+* JavaScript
+* SASS
+* Bootstrap
+* Flexbox
+* Grid
+* Responsive/Mobile Design
