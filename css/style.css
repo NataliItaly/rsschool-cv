@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 *,
 *::before,
 *::after {
@@ -21,7 +20,6 @@ a {
   text-decoration: none;
   color: #4b4b4b;
 }
-
 h1,
 h2,
 h3,
