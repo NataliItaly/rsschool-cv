@@ -419,3 +419,279 @@ h3 {
 .footer .logo-link:hover {
   transform: rotateY(180deg);
 }
+
+/*--------------------media queries----------------------*/
+
+@media (max-width: 972px) {
+  .container {
+    margin-top: 0;
+  }
+  .burger {
+    display: block;
+  }
+  .header-info {
+    padding-right: 0;
+    padding-top: 0;
+  }
+  .header-menu {
+    height: 100vh;
+    background-color: #6e777c;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    overflow: scroll;
+    position: absolute;
+    transform: translate(-200%);
+  }
+  .header-menu ul {
+    flex-direction: column;
+    padding: 40px;
+    padding-left: 50px;
+  }
+  .header-menu li {
+    margin-bottom: 20px;
+  }
+  .header-menu ul a {
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .header-menu.menu-open {
+    transform: translate(0);
+  }
+  hr {
+    display: none;
+  }
+  .profile-data {
+    padding-top: 70px;
+  }
+  .profile-position {
+    font-size: 1.2rem;
+  }
+  #code-example {
+    padding-right: 0;
+  }
+  .footer .rs-logo {
+    padding-right: 0;
+    background-color: rgb(245 243 243);
+  }
+}
+
+@media (max-width: 860px) {
+  .email {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .profile-title {
+    font-size: 1.5rem;
+  }
+  .about-title {
+    font-size: 1.2rem;
+  }
+  .profile-position {
+    font-size: 1rem;
+  }
+  .profile-data {
+    padding-left: 20px;
+    padding-top: 50px;
+    text-align: left;
+  }
+  .burger {
+    right: 20px;
+    top: 20px;
+  }
+  .profile-img {
+    padding: 20px;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  aside li {
+    font-size: 17px;
+  }
+  .logo {
+    height: 50%;
+  }
+}
+
+@media (max-width: 780px) {
+  .main {
+    flex-direction: column;
+  }
+  article {
+    width: 100%;
+    padding: 40px;
+  }
+  .header,
+  .profile-data {
+    background-color: #6e777c;
+  }
+  .profile-title,
+  .profile-position {
+    color: #ffffff;
+    text-align: left;
+  }
+  .burger .burger-line {
+    background-color: #ffffff;
+  }
+  .code {
+    border-radius: 30px;
+  }
+  aside {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-around;
+    background-color: rgb(245 243 243);
+  }
+  aside > div {
+    width: 270px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    text-align: center;
+    color: #6e777c;
+    margin: 10px;
+  }
+  aside ul {
+    list-style: none;
+  }
+  aside > h3 {
+    color: #4b4b4b;
+  }
+  #contacts ul {
+    margin-left: 0;
+  }
+  .phone,
+  .email,
+  .location,
+  .discord {
+    filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg)
+      brightness(105%) contrast(0%);
+    background-position-x: 5px;
+  }
+  .location {
+    background-position-x: 2px;
+  }
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  .footer,
+  .footer .rs-logo,
+  .footer .rs-logo .logo-container,
+  .footer #links {
+    background-color: #4b4b4b;
+  }
+  .footer .rs-logo {
+    padding-left: 0;
+    width: 200px;
+  }
+  .footer #links {
+    min-width: 170px;
+  }
+  .footer .logo-link {
+    padding-left: 0;
+    text-align: center;
+    background-position-x: 0px;
+    padding-left: 0;
+    text-align: center;
+    background-position-x: 20px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(14deg)
+      brightness(101%) contrast(101%);
+  }
+}
+
+@media (max-width: 708px) {
+  .profile-data {
+    text-align: center;
+  }
+  .profile-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  .profile-position {
+    font-size: 0.8rem;
+  }
+  .burger {
+    height: 25px;
+  }
+  .burger .burger-line {
+    width: 35px;
+  }
+
+  .profile-img {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 540px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+  .header-info,
+  .profile-img {
+    width: 100%;
+  }
+  .profile-img {
+    padding: 0 70px 70px 70px;
+  }
+  .profile-img-wrapper {
+    padding-top: 0;
+  }
+  .profile-data {
+    background-color: #6e777c;
+  }
+  .header-info {
+    padding-bottom: 0;
+  }
+  .profile-position {
+    margin-bottom: 0;
+  }
+  article {
+    padding: 20px;
+  }
+  .code {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 440px) {
+  .footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 390px) {
+  .profile-data {
+    text-align: left;
+  }
+  .profile-position > span {
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .profile-position {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .profile-img {
+    padding: 20px;
+  }
+  #experience {
+    padding: 0;
+  }
+  .projects-wrapper {
+    padding-left: 0;
+  }
+  .project-item-container {
+    margin: 0 auto 20px;
+  }
+}
