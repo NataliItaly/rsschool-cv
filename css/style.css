@@ -147,3 +147,53 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.profile-data {
+  background-color: rgb(245 243 243);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.color-grey {
+  color: #4b4b4b;
+}
+.profile-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+}
+.profile-position {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.about-title {
+  padding-left: 25px;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+article p:first-of-type {
+  margin-bottom: 15px;
+}
+#contacts ul {
+  list-style: none;
+  margin-left: -20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+article {
+  width: 70%;
+}
+.hidden-title {
+  display: none;
+}
+article section {
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+article ul {
+  padding-left: 30px;
+}
