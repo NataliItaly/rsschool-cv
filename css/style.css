@@ -52,3 +52,98 @@ body {
   margin: 50px auto;
   background-color: #ffffff;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-img {
+  width: 30%;
+  padding: 30px;
+  background-color: #6e777c;
+}
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+}
+
+.profile-img-wrapper {
+  padding-top: 20px;
+}
+.header-info {
+  width: 70%;
+  padding: 20px;
+  padding-left: 0;
+  position: relative;
+}
+
+.header-menu {
+  padding-left: 20px;
+  transition: 0.8s all ease;
+}
+.header-menu ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.header-menu li {
+  margin-right: 20px;
+}
+.header-menu ul a {
+  text-transform: uppercase;
+  font-size: 12px;
+  transition: 0.6s all ease;
+}
+.header-menu ul a:hover {
+  text-decoration: underline;
+  color: rgb(167, 164, 164);
+}
+.burger {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+}
+.burger .burger-line {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #4b4b4b;
+  position: absolute;
+  transition: 0.6s all ease;
+}
+.burger .burger-line:first-child {
+  top: 0;
+}
+.burger .burger-line:last-child {
+  bottom: 0;
+}
+.burger .burger-line:nth-child(2),
+.burger .burger-line:nth-child(3) {
+  top: 50%;
+}
+.burger-active .burger-line:nth-child(2) {
+  transform: rotate(45deg);
+}
+.burger-active .burger-line:nth-child(3) {
+  transform: rotate(-45deg);
+}
+.burger-active .burger-line:first-child,
+.burger-active .burger-line:last-child {
+  display: none;
+}
+.burger-active .burger-line {
+  background-color: #ffffff;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
