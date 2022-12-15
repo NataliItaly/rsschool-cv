@@ -197,3 +197,167 @@ article section {
 article ul {
   padding-left: 30px;
 }
+
+aside {
+  background-color: #6e777c;
+  width: 30%;
+  color: #ffffff;
+}
+aside a {
+  color: #ffffff;
+}
+aside div {
+  padding: 30px;
+  padding-left: 40px;
+}
+h2,
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+.skills-list {
+  font-size: 18px;
+}
+.skills-list li {
+  padding: 5px;
+}
+.mini-font {
+  font-size: 16px;
+}
+#code-example {
+  padding-left: 0;
+}
+#code-example h3 {
+  padding-left: 20px;
+}
+.code {
+  background-color: rgb(245 243 243);
+  padding: 20px;
+}
+.variable {
+  color: blue;
+}
+.string {
+  color: orange;
+}
+.function {
+  color: rgb(199 21 199);
+}
+.yellow {
+  color: #f5c12e;
+}
+.projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 0;
+  gap: 20px;
+}
+.project-item-container {
+  width: 287px;
+  min-width: 270px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.project-item-container > p:first-of-type {
+  margin-top: 10px;
+}
+.project-item {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  border-radius: 40px;
+  border: 5px solid #6e777c;
+  background-color: #6e777c;
+  overflow: hidden;
+  height: 180px;
+  transition: 0.6s all ease;
+}
+
+.item-description {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 70px 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(69, 73, 74, 0.95);
+  color: #efdfcc;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: 0.6s all ease-in-out;
+  border-radius: 20px;
+}
+
+.project-item-container:hover .item-description {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 1;
+}
+
+.project-item:hover {
+  border: 5px solid rgb(189, 173, 173);
+}
+
+.project-item img {
+  width: 100%;
+  height: 100%;
+}
+
+#contacts li {
+  margin-bottom: 10px;
+}
+.contacts-item {
+  display: block;
+  padding: 10px;
+  font-size: 0.7rem;
+  padding-left: 40px;
+  color: #131313;
+  transition: 0.3s all ease;
+}
+.phone {
+  background-image: url("../images/icons/phone-icon.svg");
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background-position-x: 2px;
+  background-position-y: center;
+  filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%)
+    contrast(100%);
+}
+.email {
+  background-image: url("../images/icons/email-icon.svg");
+  background-size: 30px auto;
+  background-repeat: no-repeat;
+  background-position-x: 2px;
+  background-position-y: center;
+  filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%)
+    contrast(100%);
+}
+.location {
+  background-image: url("../images/icons/location-icon.svg");
+  background-repeat: no-repeat;
+  background-position-x: -3px;
+  background-position-y: center;
+  padding-bottom: 10px;
+  background-size: 40px auto;
+  filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%)
+    contrast(100%);
+}
+.discord {
+  background-image: url("../images/icons/discord-icon.svg");
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: center;
+  padding-bottom: 10px;
+  background-size: 36px auto;
+  filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%)
+    contrast(100%);
+}
+.contacts-item:hover {
+  filter: invert(89%) sepia(50%) saturate(252%) hue-rotate(358deg)
+    brightness(108%) contrast(105%);
+}
