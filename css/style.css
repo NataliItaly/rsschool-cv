@@ -361,3 +361,61 @@ h3 {
   filter: invert(89%) sepia(50%) saturate(252%) hue-rotate(358deg)
     brightness(108%) contrast(105%);
 }
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footer #links {
+  width: 30%;
+  background-color: #6e777c;
+  margin: 0 auto;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.rs-link,
+.github-link {
+  color: #ffffff;
+}
+.footer #links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer #links li {
+  margin-bottom: 10px;
+}
+
+.github-link:hover,
+.rs-link:hover {
+  color: #ffffc1;
+}
+
+.footer .rs-logo {
+  width: 70%;
+  margin: 0 auto;
+  padding-right: 20px;
+}
+.logo-container {
+  background-color: rgb(245 243 243);
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.footer .logo-link {
+  display: block;
+  width: 150px;
+  height: 50px;
+  margin-left: 60px;
+  background-image: url("../images/rs_school-min.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  transition: 0.6s all ease;
+}
+
+.footer .logo-link:hover {
+  transform: rotateY(180deg);
+}
