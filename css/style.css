@@ -209,6 +209,12 @@ aside div {
   padding: 30px;
   padding-left: 40px;
 }
+#contacts {
+  padding: 20px;
+}
+#contacts h3 {
+  padding-left: 10px;
+}
 h2,
 h3 {
   font-size: 1.5rem;
@@ -307,14 +313,22 @@ h3 {
   height: 100%;
 }
 
+#contacts ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 #contacts li {
   margin-bottom: 10px;
+  width: 40px;
 }
 .contacts-item {
   height: 40px;
   display: block;
   background-size: 30px auto;
   background-repeat: no-repeat;
+  background-position-x: center;
   background-position-y: center;
   font-size: 0.7rem;
   color: #131313;
@@ -323,20 +337,20 @@ h3 {
     contrast(100%);
 }
 .phone {
-  background-image: url("../images/icons/phone-icon.svg");
-  background-position-x: 2px;
+  background-image: url("../images/icons/phone.svg");
+  background-size: 28px;
 }
 .whatsapp {
   background-image: url("../images/icons/whatsapp.svg");
 }
 .email {
-  background-image: url("../images/icons/email-icon.svg");
-  background-position-x: 2px;
+  background-image: url("../images/icons/email.svg");
+  background-size: 29px;
 }
 .location {
-  background-image: url("../images/icons/location-icon.svg");
-  background-position-x: -3px;
-  background-size: 40px auto;
+  background-image: url("../images/icons/location.svg");
+  background-size: 42px auto;
+
 }
 .github {
   background-image: url("../images/icons/github.svg");
@@ -346,13 +360,11 @@ h3 {
   background-size: 38px;
 }
 .discord {
-  background-image: url("../images/icons/discord-icon.svg");
-  background-position-x: 0px;
+  background-image: url("../images/icons/discord.svg");
   background-size: 31px;
 }
 .contacts-item:hover {
-  filter: invert(89%) sepia(50%) saturate(252%) hue-rotate(358deg)
-    brightness(108%) contrast(105%);
+  opacity: 0.8;
 }
 
 .footer {
@@ -414,6 +426,12 @@ h3 {
 }
 
 /*--------------------media queries----------------------*/
+
+@media (max-width: 1070px) {
+  #contacts ul {
+    justify-content: center;
+  }
+}
 
 @media (max-width: 972px) {
   .container {
@@ -542,7 +560,7 @@ h3 {
     background-color: rgb(245 243 243);
   }
   aside > div {
-    width: 270px;
+    width: 300px;
     padding: 10px;
     background-color: #ffffff;
     border-radius: 30px;
@@ -559,17 +577,20 @@ h3 {
   #contacts ul {
     margin-left: 0;
   }
+  #contacts h3 {
+    padding-left: 0;
+  }
   .phone,
   .email,
+  .whatsapp,
   .location,
+  .github,
+  .codewars,
   .discord {
     filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg)
       brightness(105%) contrast(0%);
-    background-position-x: 5px;
   }
-  .location {
-    background-position-x: 2px;
-  }
+
   .footer {
     flex-direction: row;
     flex-wrap: wrap;
@@ -686,5 +707,8 @@ h3 {
   }
   .project-item-container {
     margin: 0 auto 20px;
+  }
+  aside {
+    padding: 20px;
   }
 }
