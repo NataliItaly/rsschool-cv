@@ -247,62 +247,42 @@
           <hr />
           <section id="code-example">
             <h3 class="color-grey">Code example</h3>
+            <div>
+              <h6>Combine objects</h6>
+              <p>
+                Your task is to write a function that takes two or more objects
+                and returns a new object which combines all the input objects.
+                All input object properties will have only numeric values.
+                Objects are combined together so that the values of matching
+                keys are added together.
+              </p>
+              <p>An example:</p>
+              <p>
+                const objA = <span class="function bold">{</span> a: 10, b: 20, c: 30 <span class="function bold">}</span>
+              </p>
+              <p>
+                const objB = <span class="function bold">{</span> a: 3, c: 6, d: 3 <span class="function bold">}</span>
+              </p>
+              <p>
+                combine(objA, objB) // Returns <span class="function bold">{</span> a: 13, b: 20, c: 36, d: 3 <span class="function bold">}</span></p>
+              </p>
+            </div>
             <div class="code">
-              <code>
-                let <span class="variable">str</span> =
-                <span class="string"
-                  >'John Doe hs seven red pples under his bsket'</span
-                >; <br />
-                let <span class="variable">string</span> =
-                <span class="string">'aeiou'</span>; <br />
-                <br />
-                function <span class="function">findVowel</span>(<span
-                  class="variable"
-                  >x</span
-                >) <span class="function">{</span> <br />
-                <br />
-                let <span class="variable">arr_work</span> =
-                <span class="variable">x</span>.split(''); <br />
-                let <span class="variable">arr_temp</span> = []; <br />
-                <br />
-                <span class="function">for</span> (let
-                <span class="variable">i</span> = 0;
-                <span class="variable">i</span> &lt;
-                <span class="variable">string</span>.length;
-                <span class="variable">i</span>++) <span class="yellow">{</span>
-                <br />
-                <span class="variable">arr_work</span>.includes(
-                <span class="variable">arr_work</span>[<span class="variable"
-                  >i</span
-                >]);
-                <br />
-                <span class="variable">arr_temp</span>.push(
-                <span class="variable">arr_work</span>.includes(<span
-                  class="variable"
-                  >string</span
-                >[<span class="variable">i</span>])); <br />
-                <span class="yellow">}</span> <br />
-                <br />
-                let <span class="variable">out</span> = ''; <br />
-                <span class="function">for</span> (let
-                <span class="variable">i</span> = 0;
-                <span class="variable">i</span> &lt;
-                <span class="variable">arr_temp</span>.length;
-                <span class="variable">i</span>++)
-                <span class="yellow">{</span> <br />
-                if (<span class="variable">arr_temp</span>[<span
-                  class="variable"
-                  >i</span
-                >] === false) <span class="variable">out</span> =
-                <span class="variable">i</span>; <br />
-                <span class="yellow">}</span> <br />
-                return <span class="variable">out</span>; <br />
-                <span class="function">}</span> <br />
-                <br />
-                <span class="function">findVowel</span>(<span class="variable"
-                  >str</span
-                >);
-              </code>
+              <pre>
+    function <span class="function bold">combine</span>(...<span class="variable bold">objs</span>) <span class="brackets-1 bold">{</span>
+      const <span class="variable bold">result</span> =
+        <span class="brackets-3 bold">{</span><span class="brackets-3 bold">}</span>;
+      <span class="variable bold">objs</span>.<span class="function bold">forEach</span>(<span class="variable bold">obj</span>  => <span class="brackets-2 bold">{</span>
+        for (let <span class="function bold">prop</span> in <span class="variable bold">obj</span>) <span class="brackets-4 bold">{</span>
+          <span class="variable bold">result</span>[<span class="function bold">prop</span>] =
+            <span class="variable bold">result</span>.hasOwnProperty(<span class="function bold">prop</span>)
+            ? <span class="variable bold">result</span>[<span class="function bold">prop</span>] + <span class="variable bold">obj</span>[<span class="function bold">prop</span>]
+            : obj[<span class="function bold">prop</span>];
+        <span class="brackets-4 bold">}</span>
+      <span class="brackets-2 bold">}</span>);
+      return <span class="variable bold">result</span>;
+    <span class="brackets-1 bold">}</span>
+                </pre>
             </div>
           </section>
           <hr />

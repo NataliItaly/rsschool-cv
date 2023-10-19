@@ -176,7 +176,7 @@ article p:first-of-type {
 }
 #contacts ul {
   list-style: none;
-  }
+}
 
 .main {
   display: flex;
@@ -235,9 +235,15 @@ h3 {
 #code-example h3 {
   padding-left: 20px;
 }
+#code-example div:first-of-type {
+  padding: 0 0 20px 20px;
+}
 .code {
   background-color: rgb(245 243 243);
   padding: 20px;
+}
+.bold {
+  font-weight: 700;
 }
 .variable {
   color: blue;
@@ -248,8 +254,17 @@ h3 {
 .function {
   color: rgb(199 21 199);
 }
-.yellow {
-  color: #f5c12e;
+.brackets-1 {
+  color: orangered;
+}
+.brackets-2 {
+  color: yellowgreen;
+}
+.brackets-3 {
+  color: green;
+}
+.brackets-4 {
+  color: #dfdf04;
 }
 .projects-wrapper {
   display: flex;
@@ -350,7 +365,6 @@ h3 {
 .location {
   background-image: url("../images/icons/location.svg");
   background-size: 42px auto;
-
 }
 .github {
   background-image: url("../images/icons/github.svg");
