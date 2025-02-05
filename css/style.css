@@ -18,7 +18,15 @@ html {
 }
 a {
   text-decoration: none;
-  color: #4b4b4b;
+  color: inherit;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+a:hover {
+  color: rgb(45 45 141);
 }
 h1,
 h2,
@@ -46,6 +54,15 @@ body {
   color: #131313;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
+}
+.visualy-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 .container {
   max-width: 1140px;
@@ -174,7 +191,7 @@ hr {
 article p:first-of-type {
   margin-bottom: 15px;
 }
-#contacts ul {
+.contacts ul {
   list-style: none;
 }
 
@@ -209,10 +226,10 @@ aside div {
   padding: 30px;
   padding-left: 40px;
 }
-#contacts {
-  padding: 20px;
+.contacts {
+  padding: 0 20px 20px;
 }
-#contacts h3 {
+.contacts h3 {
   padding-left: 10px;
 }
 h2,
@@ -328,20 +345,21 @@ h3 {
   height: 100%;
 }
 
-#contacts ul {
+.contacts ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-#contacts li {
-  margin-bottom: 10px;
+.contacts li {
   width: 40px;
 }
 .contacts-item {
   height: 40px;
   display: block;
-  background-size: 30px auto;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background-size: 25px auto;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -350,99 +368,68 @@ h3 {
   transition: 0.3s all ease;
   filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%)
     contrast(100%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.contacts-item:hover {
+  border: 1px solid #000;
 }
 .phone {
   background-image: url("../images/icons/phone.svg");
-  background-size: 28px;
+  background-size: 22px;
 }
 .whatsapp {
   background-image: url("../images/icons/whatsapp.svg");
 }
 .email {
   background-image: url("../images/icons/email.svg");
-  background-size: 29px;
-}
-.location {
-  background-image: url("../images/icons/location.svg");
-  background-size: 42px auto;
 }
 .github {
   background-image: url("../images/icons/github.svg");
+  background-size: 27px;
 }
 .codewars {
   background-image: url("../images/icons/codewars.svg");
-  background-size: 38px;
+  background-size: 32px;
 }
 .discord {
   background-image: url("../images/icons/discord.svg");
-  background-size: 31px;
+  background-size: 28px;
 }
 .contacts-item:hover {
   opacity: 0.8;
 }
 
 .footer {
-  display: flex;
-  flex-direction: row-reverse;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 30% 1fr;
 }
-.footer #links {
-  width: 30%;
+
+.year {
+  padding: 30px 0;
+  grid-column: 1 / 2;
+  color: #fff;
   background-color: #6e777c;
-  margin: 0 auto;
-  color: #ffffff;
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-.rs-link,
-.github-link {
-  color: #ffffff;
-}
-.footer #links ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.footer #links li {
-  margin-bottom: 10px;
 }
 
-.github-link:hover,
-.rs-link:hover {
-  color: #ffffc1;
+.footer__contacts {
+  max-width: 50%;
+  grid-column: 2 / 3;
+  padding: 0 20px;
+  margin-left: 40px;
 }
-
-.footer .rs-logo {
-  width: 70%;
-  margin: 0 auto;
-  padding-right: 20px;
-}
-.logo-container {
-  background-color: rgb(245 243 243);
-  padding-top: 30px;
-  padding-bottom: 40px;
-}
-.footer .logo-link {
-  display: block;
-  width: 150px;
-  height: 50px;
-  margin-left: 60px;
-  background-image: url("../images/rs_school-min.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 15px;
-  transition: 0.6s all ease;
-}
-
-.footer .logo-link:hover {
-  transform: rotateY(180deg);
+.footer__contacts a {
+  filter: none;
+  -webkit-filter: none;
 }
 
 /*--------------------media queries----------------------*/
 
 @media (max-width: 1070px) {
-  #contacts ul {
+  .contacts ul {
     justify-content: center;
   }
 }
@@ -588,10 +575,10 @@ h3 {
   aside > h3 {
     color: #4b4b4b;
   }
-  #contacts ul {
+  .contacts ul {
     margin-left: 0;
   }
-  #contacts h3 {
+  .contacts h3 {
     padding-left: 0;
   }
   .phone,
