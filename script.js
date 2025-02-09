@@ -4,6 +4,7 @@ const HEADERMENU = document.querySelector(".header-menu");
 BURGER.addEventListener("click", function () {
   BURGER.classList.toggle("burger-active");
   HEADERMENU.classList.toggle("menu-open");
+  document.body.classList.toggle("block");
 });
 HEADERMENU.addEventListener("click", function () {
   BURGER.classList.toggle("burger-active");
