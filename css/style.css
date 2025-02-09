@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 *,
 *::before,
 *::after {
@@ -775,4 +776,8 @@ h3 {
   .footer__contacts {
     max-width: 260px;
   }
+}
+
+#projects {
+  display: none;
 }
