@@ -16,35 +16,73 @@
   <body>
     <div class="container">
       <header class="header">
+        <nav class="header-menu">
+          <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">My projects</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
         <div class="profile-img">
-          <div class="profile-img-wrapper">
-            <img src="images/profile_pict.jpg" alt="my picture" />
-          </div>
+          <img src="images/profile_pict.jpg" alt="my picture" />
         </div>
-
+        <div class="contacts header__contacts">
+          <h3 class="visualy-hidden">Contacts</h3>
+          <ul class="header__contacts-list">
+            <li>
+              <a href="tel:+393895922455" class="contacts-item phone"></a>
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send?phone=393895922455"
+                class="contacts-item whatsapp"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="mailto:nataliya.krylova2022@gmail.com"
+                class="contacts-item email"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/NataliItaly"
+                class="contacts-item github"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.codewars.com/users/rsschool_9748d3fdc711bd0a"
+                class="contacts-item codewars"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://discordapp.com/users/NataliItaly#8959/"
+                class="contacts-item discord"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
         <div class="header-info">
-          <nav class="header-menu">
-            <ul>
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#languages">Languages</a></li>
-            </ul>
-          </nav>
-          <div class="burger">
-            <span class="burger-line"></span>
-            <span class="burger-line"></span>
-            <span class="burger-line"></span>
-            <span class="burger-line"></span>
-          </div>
           <div class="profile-data">
             <h1 class="profile-title color-grey">Nataliya Krylova</h1>
             <h2 class="profile-position color-grey">
-              <span>JUNIOR</span> <span>FRONT</span> <span>END</span>
-              <span>DEVELOPER</span>
+              JUNIOR FRONT END DEVELOPER
             </h2>
           </div>
+        </div>
+        <div class="burger">
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
+          <span class="burger-line"></span>
         </div>
       </header>
 
@@ -52,14 +90,12 @@
         <article>
           <h2 class="hidden-title">My CV</h2>
           <section>
-            <h2 class="about-title color-grey" id="about-me">About me</h2>
+            <h2 class="section__title color-grey" id="about-me">About me</h2>
             <p>
               I am a curiouse and motivated person, apassionated of Web
               Development.
             </p>
-          </section>
-          <section>
-            <h3 class="color-grey">My strengths are:</h3>
+            <p>My strengths are:</p>
             <ul>
               <li>
                 flexible by nature and can quickly adapt to changing situations,
@@ -72,8 +108,24 @@
               </li>
             </ul>
           </section>
+          <section>
+            <h2 class="section__title color-grey" id="experience">
+              Experience
+            </h2>
+            <p>
+              Experience in in team development in a private volunteer project
+              of photographer's website. Participated as a frontend web
+              developer using such technologies Linux, Docker, Composer,
+              Laravel, Tailwind CSS, Alpine.js
+            </p>
+            <p>
+              Experience single page application using React and vanilla
+              JavaScript, Fetch API.
+            </p>
+            <p>Multipage web sites and landings.</p>
+          </section>
           <section id="education">
-            <h3 class="color-grey">Education</h3>
+            <h2 class="section__title color-grey">Education</h2>
             <ul>
               <li>
                 <a
@@ -518,49 +570,8 @@
         </article>
 
         <aside>
-          <div class="contacts">
-            <h3 class="visualy-hidden">Contacts</h3>
-            <ul>
-              <li>
-                <a href="tel:+393895922455" class="contacts-item phone"></a>
-              </li>
-              <li>
-                <a
-                  href="https://api.whatsapp.com/send?phone=393895922455"
-                  class="contacts-item whatsapp"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="mailto:nataliya.krylova2022@gmail.com"
-                  class="contacts-item email"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/NataliItaly"
-                  class="contacts-item github"
-                  target="_blank"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.codewars.com/users/rsschool_9748d3fdc711bd0a"
-                  class="contacts-item codewars"
-                  target="_blank"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://discordapp.com/users/NataliItaly#8959/"
-                  class="contacts-item discord"
-                  target="_blank"
-                ></a>
-              </li>
-            </ul>
-          </div>
           <div id="skills">
-            <h3>Skills</h3>
+            <h2 class="section__title">Skills</h2>
             <ul class="skills-list">
               <li>JavaScript, TypeScript</li>
               <li>React</li>
@@ -579,7 +590,7 @@
             </ul>
           </div>
           <div id="languages">
-            <h3>Languages</h3>
+            <h2 class="section__title">Languages</h2>
             <ul class="skills-list">
               <li>
                 ENGLISH C1, <br />
@@ -602,7 +613,7 @@
         <div class="year"></div>
         <div class="contacts footer__contacts">
           <h3 class="visualy-hidden">Contacts</h3>
-          <ul>
+          <ul class="footer__list">
             <li>
               <a href="tel:+393895922455" class="contacts-item phone"></a>
             </li>
