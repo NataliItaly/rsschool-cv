@@ -1,4 +1,8 @@
 @media print {
+  body {
+    background-image: none;
+  }
+
   .header,
   .header__profile,
   .header__info-data {
