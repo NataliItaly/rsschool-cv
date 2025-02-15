@@ -1,0 +1,18 @@
+@media print {
+  .header__title,
+  .header__subtitle {
+    color: #4b4b4b;
+  }
+
+  .header__menu,
+  .contacts,
+  .section_about,
+  .section_projects,
+  .footer {
+    display: none !important;
+  }
+
+  .footer__btn {
+    display: none !important;
+  }
+}
