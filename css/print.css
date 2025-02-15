@@ -1,0 +1,74 @@
+@media print {
+  .header,
+  .header__profile,
+  .header__info-data {
+    background-color: #fff;
+  }
+
+  .header {
+    margin-bottom: 0;
+  }
+
+  .header__title,
+  .header__subtitle {
+    color: #4b4b4b;
+    background-color: #fff;
+  }
+
+  .header__info-data,
+  .header__profile {
+    padding-bottom: 0;
+  }
+
+  .header__menu,
+  .contacts,
+  .burger,
+  .section_about,
+  .section_projects,
+  .sidebar__comment,
+  .sidebar__list-item br,
+  .footer {
+    display: none !important;
+  }
+
+  .section,
+  .section__title,
+  .sidebar__block {
+    padding: 0;
+  }
+
+  .section__title {
+    font-size: 1.1rem;
+  }
+
+  .sidebar {
+    display: block;
+    background-color: #fff;
+    order: -1;
+    padding-top: 0;
+  }
+
+  .sidebar__block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    justify-content: start;
+    gap: 20px;
+  }
+
+  .sidebar__title {
+    justify-self: start;
+    color: #4b4b4b;
+    font-size: 1.1rem;
+  }
+
+  .sidebar__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .sidebar__list-item {
+  }
+}
