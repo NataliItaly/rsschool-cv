@@ -689,7 +689,8 @@ body {
     background-color: #ffffff;
   }
 
-  .section__title {
+  .section__title,
+  .sidebar__title {
     font-size: 1.2rem;
   }
 
