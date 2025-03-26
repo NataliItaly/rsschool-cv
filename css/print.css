@@ -6,7 +6,7 @@
   .header,
   .header__profile,
   .header__info-data {
-    background-color: #fff;
+    background-color: var(--fair-bg-color);
   }
 
   .header {
@@ -16,7 +16,7 @@
   .header__title,
   .header__subtitle {
     color: #4b4b4b;
-    background-color: #fff;
+    background-color: var(--fair-bg-color);
   }
 
   .header__info-data,
@@ -47,7 +47,7 @@
 
   .sidebar {
     display: block;
-    background-color: #fff;
+    background-color: var(--fair-bg-color);
     order: -1;
     padding-top: 0;
   }
