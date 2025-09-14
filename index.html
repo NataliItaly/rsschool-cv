@@ -9,63 +9,109 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="images/cv-icon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/cv-icon.webp" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>My CV</title>
+    <link rel="stylesheet" href="./css/print.css" />
+    <title>Krylova Nataliya Frontend Web Developer</title>
   </head>
   <body>
     <div class="container">
-      <header class="header">
-        <div class="profile-img">
-          <div class="profile-img-wrapper">
-            <img src="images/profile_pict.jpg" alt="my picture" />
+      <header class="header" id="header">
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="#about-me" class="header__menu-link">About Me</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#education" class="header__menu-link">Education</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#skills" class="header__menu-link">Skills</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#experience" class="header__menu-link">Experience</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#projects" class="header__menu-link">My projects</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#languages" class="header__menu-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__profile">
+          <img
+            class="header__profile-img"
+            src="images/profile_img.png"
+            alt="my picture"
+          />
+        </div>
+        <div class="contacts header__contacts">
+          <h3 class="visualy-hidden">Contacts</h3>
+          <ul class="header__contacts-list contacts__list">
+            <li class="contacts__item">
+              <a href="tel:+393895922455" class="contacts__link phone"></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://api.whatsapp.com/send?phone=393895922455"
+                class="contacts__link whatsapp"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="mailto:nataliya.krylova2022@gmail.com"
+                class="contacts__link email"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://github.com/NataliItaly"
+                class="contacts__link github"
+                target="_blank"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://www.codewars.com/users/rsschool_9748d3fdc711bd0a"
+                class="contacts__link codewars"
+                target="_blank"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://discordapp.com/users/NataliItaly#8959/"
+                class="contacts__link discord"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__info">
+          <div class="header__info-data">
+            <h1 class="header__title">Nataliya Krylova</h1>
+            <h2 class="header__subtitle">JUNIOR FRONT END DEVELOPER</h2>
           </div>
         </div>
-
-        <div class="header-info">
-          <nav class="header-menu">
-            <ul>
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#education">Education</a></li>
-              <li><a href="#code-example">Code example</a></li>
-              <li><a href="#contacts">Contacts</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#languages">Languages</a></li>
-              <li><a href="#links">Links</a></li>
-            </ul>
-          </nav>
-          <div class="burger">
-            <span class="burger-line"></span>
-            <span class="burger-line"></span>
-            <span class="burger-line"></span>
-            <span class="burger-line"></span>
-          </div>
-          <hr />
-          <div class="profile-data">
-            <h1 class="profile-title color-grey">Nataliya Krylova</h1>
-            <h2 class="profile-position color-grey">
-              <span>JUNIOR</span> <span>FRONT</span> <span>END</span>
-              <span>DEVELOPER</span>
-            </h2>
-          </div>
-          <hr />
+        <div class="burger">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
         </div>
       </header>
 
       <main class="main">
-        <article>
-          <h2 class="hidden-title">My CV</h2>
-          <section>
-            <h2 class="about-title color-grey" id="about-me">About me</h2>
+        <article class="main__article">
+          <h2 class="visualy-hidden">My CV</h2>
+          <section class="section section_about">
+            <h2 class="section__title" id="about-me">About me</h2>
             <p>
               I am a curiouse and motivated person, apassionated of Web
               Development.
             </p>
-          </section>
-          <section>
-            <h3 class="color-grey">My strengths are:</h3>
-            <ul>
+            <p>My strengths are:</p>
+            <ul class="main__list">
               <li>
                 flexible by nature and can quickly adapt to changing situations,
                 quickly find a common language with people,
@@ -77,583 +123,493 @@
               </li>
             </ul>
           </section>
-          <section id="education">
-            <h3 class="color-grey">Education</h3>
-            <ul>
+          <section class="section">
+            <h2 class="section__title" id="experience">Experience</h2>
+            <p>
+              Experience in in team development in a private volunteer project
+              of photographer's website. Participated as a frontend web
+              developer using such technologies Linux, Docker, Composer,
+              Laravel, Tailwind CSS, Alpine.js
+            </p>
+            <p>
+              Experience single page application using React and vanilla
+              JavaScript, Fetch API.
+            </p>
+            <p>Multipage web sites and landings.</p>
+          </section>
+          <section class="section" id="education">
+            <h2 class="section__title">Education</h2>
+            <ul class="main__list">
               <li>
-                <a href="https://www.udacity.com/" target="_blank">Udacity</a>
-                Front End Developer Nanodegree Programm,
+                <a
+                  href="https://www.linkedin.com/learning/certificates/8919b38c52c57f2794aea942ac021e0ba945164efab9fc4e0435aea6330e2bc7?trk=share_certificate"
+                  >JavaScript Developer Linkedin Learning Pass</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/eb36c5e95905022052c0444de242f1f330bddb537cad22c328c0f1fb30d39f6d?trk=share_certificate"
+                  >CSS Linkedin Learning Pass</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/cf90fa9dd570dc712b6e696685a8a20fc04d86af62a3c7331c707cbe32899d2e?trk=share_certificate"
+                  >Advance Skills in HTML Linkedin Learning Pass</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/7abd943c38e1065d194651b7c6aa89cec4e4b2beada7639cb22a3a24ddcd63f2?trk=share_certificate"
+                  >Accessibility (a11y) Best Practices Linkedin Learning Pass</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/d821b2e832685c86dc9f0a94d7e26ef2b1cd8e1f3bb7d110394b7c5f5c5c2590?trk=share_certificate"
+                  >Exploring a Career in User Experience Design Linkedin
+                  Learning Pass</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://scrimba.com/certificate/uvxew7Cr/gfrontend"
+                  target="_blank"
+                  >Scrimba Frontend Developer Career Path</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/learning/certificates/3d72b92ff6a13982691e05ec84b1a3c3bdb6f22469bc279e7c63c8013b369f27?trk=share_certificate"
+                  >JavaScript Foundations Professional Certificate by Mozilla</a
+                >
+              </li>
+              <li>
                 <a
                   href="https://graduation.udacity.com/confirm/e/74abab22-c38c-11ed-93d3-678ffd6cdd65"
                   target="_blank"
-                  >certificate</a
+                  >Udacity Frontend Developer Nanodegree Programm</a
                 >
               </li>
               <li>
-                JS/FE PRE-SCHOOL 2022 (JAVASCRIPT),
-                <a href="https://rs.school/js/" target="_blank">
-                  The Rolling Scopes School</a
-                >,
                 <a
                   href="https://app.rs.school/certificate/7bsu0gyv"
                   target="_blank"
-                  >certificate</a
+                  >JS/FE PRE-SCHOOL 2022 (JAVASCRIPT) The Rolling Scopes
+                  School</a
                 >
               </li>
               <li>
-                React Development Workshop from SheCodes,
                 <a
                   href="https://www.shecodes.io/certificates/6421df6640ae802df2f731c2b3819d1a"
                   target="_blank"
-                  >certificate</a
+                  >React Development Workshop from SheCodes</a
                 >
               </li>
               <li>
                 <a
-                  href="https://www.coursera.org/professional-certificates/google-ux-design"
+                  href="https://coursera.org/share/52a776fd776422d3417d38c2db700f1a"
                   target="_blank"
-                  >Coursera</a
-                >
-                <a
-                  href="https://www.credly.com/badges/910d15af-aebf-4381-b4e1-5d1a019f05f1/public_url"
-                  target="_blank"
-                  >Google UX Design Certificate</a
+                  >Coursera Google UX Design Certificate</a
                 >
               </li>
               <li>
-                Build Responsive Real-World Websies with HTML and CSS, by
                 <a
-                  href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                  href="https://coursera.org/share/840fba0d112b3341452f05db46f8e7cd"
                   target="_blank"
-                  >Jonas Schmedtmann</a
-                >
-                <a
-                  href="https://www.udemy.com/certificate/UC-7d47def9-66da-41c0-9c0e-9834d34d4c4e/"
-                  target="_blank"
-                  >certificate</a
+                  >Coursera Google IT Support Certificate</a
                 >
               </li>
               <li>
-                Responsive Web Design corse,
-                <a
-                  href="https://www.freecodecamp.org/learn/responsive-web-design/"
-                  target="_blank"
-                  >FreeCodeCamp</a
-                >,
                 <a
                   href="https://www.freecodecamp.org/certification/fcc9245ea3b-83ad-4998-86fb-ef89c9da64f9/responsive-web-design"
                   target="_blank"
-                  >certificate</a
-                >
-              </li>
-              <li>
-                JavaScript 2.0,
-                <a href="https://itgid.info/ru/course/js20" target="_blank">
-                  itgid.info by Alexander Lushchenko</a
-                >,
-                <a
-                  href="https://cabinet.itgid.info/certificate/c9f3uafk3vgx"
-                  target="_blank"
-                  >certificate</a
-                >
-              </li>
-
-              <li>
-                OOP JavaScript,
-                <a href="https://itgid.info/ru/course/oopjs" target="_blank">
-                  itgid.info by Alexander Lushchenko</a
-                >,
-                <a
-                  href="https://cabinet.itgid.info/certificate/c9f3uafk3vgx"
-                  target="_blank"
-                  >certificate</a
-                >
-              </li>
-
-              <li>
-                Arrays Methods,
-                <a
-                  href="https://itgid.info/ru/course/arraymethod"
-                  target="_blank"
-                >
-                  itgid.info by Alexander Lushchenko</a
-                >,
-                <a
-                  href="https://cabinet.itgid.info/certificate/91a3he4rs1s9"
-                  target="_blank"
-                  >certificate</a
-                >
-              </li>
-              <li>
-                JS Functions,
-                <a
-                  href="https://itgid.info/ru/course/function-2021"
-                  target="_blank"
-                >
-                  itgid.info by Alexander Lushchenko</a
-                >,
-                <a
-                  href="https://cabinet.itgid.info/certificate/6kmfcp4bqz"
-                  target="_blank"
-                  >certificate</a
-                >
-              </li>
-
-              <li>
-                HTML for JavaScript Developers,
-                <a href="https://itgid.info/ru/course/html" target="_blank">
-                  itgid.info by Alexander Lushchenko</a
-                >,
-                <a
-                  href="https://cabinet.itgid.info/certificate/hbqwwxcwyc9p"
-                  target="_blank"
-                  >certificate</a
-                >
-              </li>
-              <li>
-                Web Developer by
-                <a
-                  href="https://www.udemy.com/course/webdeveloper/learn/lecture/14920848?start=0#overview"
-                  target="_blank"
-                  >Ivan Petrichenko</a
-                >,
-                <a
-                  href="https://www.udemy.com/certificate/UC-a2e69078-0ca3-4130-a11a-4eaa9c6ae40a/?fbclid=IwAR3hx6uqbRlRv-k0-wmB_k1FzYbzGbZ20awykFHldlW9xgMcVmme5EkFH64"
-                  target="_blank"
-                  >certificate</a
+                  >FreeCodeCamp Responsive Web Design</a
                 >
               </li>
               <li>Yaroslav Mudryi National Law University, Kharkiv, Ukraine</li>
             </ul>
           </section>
-          <hr />
-          <section id="code-example">
-            <h3 class="color-grey">Code example</h3>
-            <div>
-              <h6>Combine objects</h6>
-              <p>
-                Your task is to write a function that takes two or more objects
-                and returns a new object which combines all the input objects.
-                All input object properties will have only numeric values.
-                Objects are combined together so that the values of matching
-                keys are added together.
-              </p>
-              <p>An example:</p>
-              <p>
-                const objA = <span class="function bold">{</span> a: 10, b: 20, c: 30 <span class="function bold">}</span>
-              </p>
-              <p>
-                const objB = <span class="function bold">{</span> a: 3, c: 6, d: 3 <span class="function bold">}</span>
-              </p>
-              <p>
-                combine(objA, objB) // Returns <span class="function bold">{</span> a: 13, b: 20, c: 36, d: 3 <span class="function bold">}</span></p>
-              </p>
-            </div>
-            <div class="code">
-              <code>
-                <pre>
-    function <span class="function bold">combine</span>(...<span class="variable bold">objs</span>) <span class="brackets-1 bold">{</span>
-      const <span class="variable bold">result</span> =
-        <span class="brackets-3 bold">{</span><span class="brackets-3 bold">}</span>;
-      <span class="variable bold">objs</span>.<span class="function bold">forEach</span>(<span class="variable bold">obj</span>  => <span class="brackets-2 bold">{</span>
-        for (let <span class="function bold">prop</span> in <span class="variable bold">obj</span>) <span class="brackets-4 bold">{</span>
-          <span class="variable bold">result</span>[<span class="function bold">prop</span>] =
-            <span class="variable bold">result</span>.hasOwnProperty(<span class="function bold">prop</span>)
-            ? <span class="variable bold">result</span>[<span class="function bold">prop</span>] + <span class="variable bold">obj</span>[<span class="function bold">prop</span>]
-            : obj[<span class="function bold">prop</span>];
-        <span class="brackets-4 bold">}</span>
-      <span class="brackets-2 bold">}</span>);
-      return <span class="variable bold">result</span>;
-    <span class="brackets-1 bold">}</span>
-                </pre>
-              </code>
-            </div>
-          </section>
-          <hr />
-          <section id="experience">
-            <h3>My Projects</h3>
-            <hr />
-            <ul class="projects-wrapper">
-              <li class="project-item-container">
+          <section class="section section_projects" id="projects">
+            <h2 class="section__title">My Projects</h2>
+            <ul class="projects">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
+                  href="https://movie-search-app-omdb-api.netlify.app/"
+                  target="_blank"
+                >
+                  <span class="projects__description"></span>
+                  <img
+                    class="projects__img"
+                    src="images/project-images/movie-app.jpeg"
+                    alt="React Movie App RESTful API"
+                  />
+                </a>
+              </li>
+              <li class="projects__item">
+                <a
+                  class="projects__link"
+                  href="https://nataliitaly.github.io/ocean/"
+                  target="_blank"
+                >
+                  <span class="projects__description"></span>
+                  <img
+                    class="projects__img"
+                    src="images/project-images/ocean.png"
+                    alt="Ocean Web Site"
+                  />
+                </a>
+              </li>
+              <li class="projects__item">
+                <a
+                  class="projects__link"
+                  href="https://gleeful-truffle-103b4f.netlify.app/"
+                  target="_blank"
+                >
+                  <span class="projects__description"></span>
+                  <img
+                    class="projects__img"
+                    src="images/project-images/colors-app.jpeg"
+                    alt="React App Color Scheme Generator"
+                  />
+                </a>
+              </li>
+              <li class="projects__item">
+                <a
+                  class="projects__link"
                   href="https://graceful-bienenstitch-7cef1d.netlify.app/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/react-weather-app.jpeg"
                     alt="React Weather App"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/Floral-boutique-JS/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/floral-boutique.jpeg"
                     alt="Floral Boutique Landing Page"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Momentum/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/momentum.png"
                     alt="Momentum App"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/NoWarMomentum/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/nowar-momentum.jpeg"
                     alt="No War App"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/Italian-taste-personal-blog/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/italian-taste.jpeg"
                     alt="Personal Blog about italian food"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://weather-app-project-3-udacity.netlify.app"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/weather-app.jpeg"
                     alt="Weather App"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
+                  href="https://nataliitaly.github.io/JS-habbits-tracker/#1"
+                  target="_blank"
+                >
+                  <span class="projects__description"></span>
+                  <img
+                    class="projects__img"
+                    src="images/project-images/habbits-tracker.png"
+                    alt="Habbits Tracker App"
+                  />
+                </a>
+              </li>
+              <li class="projects__item">
+                <a
+                  class="projects__link"
                   href="https://nataliitaly.github.io/file-storage/?fbclid=IwAR03zqu85H5_TBWNy6B8khLX5dhFiZfMMihadcU5ZwzL5Ds-sPXEKdJIjSk"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/eco-sound.jpeg"
                     alt="Eco Sound App"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/Portfolio/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/portfolio.jpeg"
                     alt="Portfolio Web Site"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://rolling-scopes-school.github.io/nataliitaly-JSFE2022Q3/online-zoo/pages/main/index.html"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/online-zoo.jpeg"
                     alt="Online Zoo Web Site"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
-                  href="https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Travel/"
-                  target="_blank"
-                >
-                  <span class="item-description"></span>
-                  <img
-                    src="images/project-images/travel.jpeg"
-                    alt="Travel Web Site"
-                  />
-                </a>
-              </li>
-              <li class="project-item-container">
-                <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://rolling-scopes-school.github.io/nataliitaly-JSFE2023Q1/shelter/index.html"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/pets-shelter.jpeg"
                     alt="Pet's Shelter Web Site"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q4/plants/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/plants.jpeg"
                     alt="Plants Web Site"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
-                  href="https://nataliitaly.github.io/Electric-Bike/"
-                  target="_blank"
-                >
-                  <span class="item-description"></span>
-                  <img
-                    src="images/project-images/bike.jpeg"
-                    alt="Electric Bike online Shop"
-                  />
-                </a>
-              </li>
-              <li class="project-item-container">
-                <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/Language-School2/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/language-school.jpeg"
                     alt="Language School Web Site"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/Denim_shop/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/denim.jpeg"
                     alt="Denim Store Web site"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/halloween_card/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/halloween-card.jpeg"
                     alt="Halloween Card App"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/Yoga_studio/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/yoga.jpeg"
                     alt="Yoga Studio Web Site"
                   />
                 </a>
               </li>
-              <li class="project-item-container">
+              <li class="projects__item">
                 <a
-                  class="project-item"
-                  href="https://nataliitaly.github.io/Flower_shop/"
-                  target="_blank"
-                >
-                  <span class="item-description"></span>
-                  <img
-                    src="images/project-images/flower-shop.jpeg"
-                    alt="Flower Shop Web Site"
-                  />
-                </a>
-              </li>
-              <li class="project-item-container">
-                <a
-                  class="project-item"
-                  href="https://nataliitaly.github.io/CustomDev/"
-                  target="_blank"
-                >
-                  <span class="item-description"></span>
-                  <img
-                    src="images/project-images/custom-dev.jpeg"
-                    alt="Custom Dev Web Site"
-                  />
-                </a>
-              </li>
-              <li class="project-item-container">
-                <a
-                  class="project-item"
-                  href="https://nataliitaly.github.io/Conquest_watch_store/"
-                  target="_blank"
-                >
-                  <span class="item-description"></span>
-                  <img
-                    src="images/project-images/watch-store.jpeg"
-                    alt="Conquest Watch Store Web Site"
-                  />
-                </a>
-              </li>
-              <li class="project-item-container">
-                <a
-                  class="project-item"
+                  class="projects__link"
                   href="https://nataliitaly.github.io/Museum-test/"
                   target="_blank"
                 >
-                  <span class="item-description"></span>
+                  <span class="projects__description"></span>
                   <img
+                    class="projects__img"
                     src="images/project-images/museum.jpg"
                     alt="Louvre Museum Web Site"
                   />
                 </a>
               </li>
             </ul>
+            <button class="projects__btn">Show More</button>
           </section>
-          <hr />
         </article>
 
-        <aside>
-          <div id="skills">
-            <h3>Skills</h3>
-            <ul class="skills-list">
-              <li>JavaScript, OOP</li>
-              <li>Express.js</li>
-              <li>React basic</li>
-              <li>UI/UX Design</li>
-              <li>User Experience</li>
-              <li>CSS, SASS</li>
-              <li>Git, GitHub</li>
-              <li>Bootstrap</li>
-              <li>Responsive/Mobile Design</li>
-              <li>Accessibility</li>
-              <li>HTML</li>
+        <aside class="sidebar">
+          <div class="sidebar__block" id="skills">
+            <h2 class="sidebar__title">Skills</h2>
+            <ul class="sidebar__list">
+              <li class="sidebar__list-item">JavaScript,</li>
+              <li class="sidebar__list-item">TypeScript,</li>
+              <li class="sidebar__list-item">React,</li>
+              <li class="sidebar__list-item">A11Y,</li>
+              <li class="sidebar__list-item">CSS, SCSS, SASS,</li>
+              <li class="sidebar__list-item">Tailwind CSS,</li>
+              <li class="sidebar__list-item">BEM,</li>
+              <li class="sidebar__list-item">HTML</li>
+              <li class="sidebar__list-item">Alpine.js,</li>
+              <li class="sidebar__list-item">Express.js,</li>
+              <li class="sidebar__list-item">UI/UX Design,</li>
+              <li class="sidebar__list-item">Git, GitHub,</li>
+              <li class="sidebar__list-item">Bootstrap,</li>
+              <li class="sidebar__list-item">Responsive / Mobile Design,</li>
+              <li class="sidebar__list-item">Node.js basic</li>
+              <li class="sidebar__list-item">PHP basics,</li>
+              <li class="sidebar__list-item">Pyton basics,</li>
             </ul>
           </div>
-          <div id="languages">
-            <h3>Languages</h3>
-            <ul class="skills-list">
-              <li>
-                ENGLISH C1, <br />
-                <span class="mini-font"
+          <div class="sidebar__block" id="languages">
+            <h2 class="sidebar__title">Languages</h2>
+            <ul class="sidebar__list">
+              <li class="sidebar__list-item">
+                ENGLISH - C1, <br />
+                <span class="sidebar__comment"
                   >vast experience in translation of medical and fitness
                   literature</span
                 >
               </li>
-              <li>ITALIAN C2</li>
-              <li>JAPANESE A2</li>
-              <li>TURKISH B2</li>
-              <li>RUSSIAN native</li>
-              <li>UKRAINIAN native</li>
-            </ul>
-          </div>
-          <div id="contacts">
-            <h3>Contacts</h3>
-            <ul>
-              <li>
-                <a href="tel:+393895922455" class="contacts-item phone"></a>
-              </li>
-              <li>
-                <a
-                  href="https://api.whatsapp.com/send?phone=393895922455"
-                  class="contacts-item whatsapp"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="mailto:nataliya.krylova2022@gmail.com"
-                  class="contacts-item email"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.google.it/maps/place/51018+Pieve+A+Nievole+PT/@43.871032,10.762509,13z/data=!3m1!4b1!4m5!3m4!1s0x132a7d4a25485309:0xcc705da508d61d1f!8m2!3d43.8821981!4d10.803874"
-                  target="_blank"
-                  class="contacts-item location"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/NataliItaly"
-                  class="contacts-item github"
-                  target="_blank"
-                ></a>
-              </li>
-
-              <li>
-                <a
-                  href="https://www.codewars.com/users/rsschool_9748d3fdc711bd0a"
-                  class="contacts-item codewars"
-                  target="_blank"
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://discordapp.com/users/NataliItaly#8959/"
-                  class="contacts-item discord"
-                  target="_blank"
-                ></a>
-              </li>
+              <li class="sidebar__list-item">ITALIAN - C2,</li>
+              <li class="sidebar__list-item">JAPANESE - A2,</li>
+              <li class="sidebar__list-item">TURKISH - B2,</li>
+              <li class="sidebar__list-item">UKRAINIAN - native,</li>
+              <li class="sidebar__list-item">RUSSIAN - native</li>
             </ul>
           </div>
         </aside>
       </main>
 
       <footer class="footer">
-        <div class="rs-logo">
-          <div class="logo-container">
-            <a href="https://rs.school/" target="_blank" class="logo-link"> </a>
-          </div>
-        </div>
-        <div id="links">
-          <ul>
-            <li class="year"></li>
-            <li>
-              <a href="https://rs.school/js/" target="_blank" class="rs-link"
-                >JavaScript/Front-end</a
-              >
+        <div class="footer__year"></div>
+        <div class="contacts footer__contacts">
+          <h3 class="visualy-hidden">Contacts</h3>
+          <ul class="footer__list contacts__list">
+            <li class="contacts__item">
+              <a
+                href="tel:+393895922455"
+                class="footer__link contacts__link phone"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://api.whatsapp.com/send?phone=393895922455"
+                class="footer__link contacts__link whatsapp"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="mailto:nataliya.krylova2022@gmail.com"
+                class="footer__link contacts__link email"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://github.com/NataliItaly"
+                class="footer__link contacts__link github"
+                target="_blank"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://www.codewars.com/users/rsschool_9748d3fdc711bd0a"
+                class="footer__link contacts__link codewars"
+                target="_blank"
+              ></a>
+            </li>
+            <li class="contacts__item">
+              <a
+                href="https://discordapp.com/users/NataliItaly#8959/"
+                class="footer__link contacts__link discord"
+                target="_blank"
+              ></a>
             </li>
           </ul>
         </div>
+        <a href="#header" class="footer__btn" aria-label="Go to header."
+          >&uarr;</a
+        >
       </footer>
     </div>
     <script src="script.js"></script>
