@@ -15,13 +15,13 @@ nataliya.krylova2022@gmail.com
 
 ### About Me
 
-I am a curiouse and motivated person, apassionated of Web Development.
+I am a curious and motivated person with a passion for web development.
 
-My strengths are:
+My strengths include:
 
-- flexible by nature and can quickly adapt to changing situations, quickly find a common language with people.
-- meticulous and attentive to details.
-- persistent and diligent, capable dedicate hours and hours to resolve a task.
+-Being naturally flexible and able to quickly adapt to changing situations; I easily find common ground with people.
+-Meticulous and detail-oriented.
+-Persistent and diligent, capable of dedicating hours to solving a task.
 
 ### Skills
 
