@@ -46,20 +46,19 @@ My strengths are:
 
 Took part in the development of a photographer's website. Contributed to the frontend implementation using Laravel, Alpine.js, and Tailwind CSS. Worked with Blade templates, Docker, and Composer.
 
-### Experience
+---
 
+### Other Experience
+
+- [React Movie Search App](https://movie-search-app-omdb-api.netlify.app/)
+- [React Color App](https://gleeful-truffle-103b4f.netlify.app/)
+- [Ocean Web Site](https://nataliitaly.github.io/ocean/)
 - [React Weather App](https://graceful-bienenstitch-7cef1d.netlify.app/)
 - [JavaScript NoWarMomentum App](https://nataliitaly.github.io/NoWarMomentum/)
 - [JavaScript Momentum App](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Momentum/)
 - [JavaScript Weather App](https://weather-app-project-3-udacity.netlify.app/)
 - [Floral Boutique Landing Page](https://nataliitaly.github.io/Floral-boutique-JS/)
 - [JavaScript Eco Sound App](https://nataliitaly.github.io/file-storage/?fbclid=IwAR1Ou9pcPwRdB9r34f3O6_lqjedecdETb8wiOlrmBiedO51GbuwAV94PRwQ)
-- [Portfolio Landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL/portfolio/?fbclid=IwAR1KRb_ScotvxtYlX2ynqv0j2LqSj_P_f7FUvOihW1T89udU_PKfdMdxhm4)
-- [Online Zoo Landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFE2022Q3/online-zoo/pages/main/index.html)
-- [Travel Portal landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Travel/)
-- [Pet's Shelter Landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFE2023Q1/shelter/index.html)
-- [Plants Landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q4/plants/)
-- - [Language School WEb Site](https://nataliitaly.github.io/Language_school/?fbclid=IwAR1ztu1sh0KJnXY-ETmNIyuAv5eXUsHbTLNMNtr01o2LbbbNWi4M2lmWalQ)
 
 ---
 
