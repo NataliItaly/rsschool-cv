@@ -4,6 +4,8 @@
 
 ![My photo](profile-img-min.png)
 
+### Contacts
+
 nataliya.krylova2022@gmail.com
 
 - [My CV](https://nataliitaly.github.io/rsschool-cv/)
