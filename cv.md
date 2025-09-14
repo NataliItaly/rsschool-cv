@@ -42,6 +42,26 @@ My strengths include:
 - PHP basic
 - Python basic
 
+```
+
+### Code example
+
+const objA = { a: 10, b: 20, c: 30 }
+const objB = { a: 3, c: 6, d: 3 }
+combine(objA, objB) // Returns { a: 13, b: 20, c: 36, d: 3 }
+
+function combine(...objs) {
+    const result = {};
+    objs.forEach(obj  => {
+      for (let prop in obj) {
+        result[prop] = result.hasOwnProperty(prop)
+          ? result[prop] + obj[prop]
+          : obj[prop];
+      }
+    });
+    return result;
+}
+```
 ---
 
 ### Work Experience
@@ -79,29 +99,6 @@ Took part in the development of a photographer's website. Contributed to the fro
 - Coursera Google UX Design Certificate, [certificate](https://www.credly.com/badges/910d15af-aebf-4381-b4e1-5d1a019f05f1/public_url)
 - Responsive Web Design corse, FreeCodeCamp, [certificate](https://www.freecodecamp.org/certification/fcc9245ea3b-83ad-4998-86fb-ef89c9da64f9/responsive-web-design)
 - Yaroslav Mudryi National Law University, Kharkiv, Ukraine
-
----
-
-### Code example
-
-```
-const objA = { a: 10, b: 20, c: 30 }
-const objB = { a: 3, c: 6, d: 3 }
-combine(objA, objB) // Returns { a: 13, b: 20, c: 36, d: 3 }
-
-function combine(...objs) {
-    const result = {};
-    objs.forEach(obj  => {
-      for (let prop in obj) {
-        result[prop] = result.hasOwnProperty(prop)
-          ? result[prop] + obj[prop]
-          : obj[prop];
-      }
-    });
-    return result;
-}
-
-```
 
 ---
 
