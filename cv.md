@@ -42,6 +42,10 @@ My strengths are:
 
 ---
 
+### Work Experience
+
+Took part in the development of a photographer's website. Contributed to the frontend implementation using Laravel, Alpine.js, and Tailwind CSS. Worked with Blade templates, Docker, and Composer.
+
 ### Experience
 
 - [React Weather App](https://graceful-bienenstitch-7cef1d.netlify.app/)
