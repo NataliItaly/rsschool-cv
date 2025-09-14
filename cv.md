@@ -2,7 +2,7 @@
 
 ## Junior Front End Developer
 
-![My photo](profile-min.jpg)
+![My photo](profile-img-min.png)
 
 nataliya.krylova2022@gmail.com
 
