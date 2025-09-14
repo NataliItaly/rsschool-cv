@@ -25,17 +25,20 @@ My strengths are:
 
 ### Skills
 
-- JavaScript, OOP
-- React basic
-- Express.js
+- JavaScript
+- TypeScript
+- React
+- Alpine.js
+- Node.js, Express.js
 - UI/UX Design
-- User Experience
-- CSS, SASS
+- A11Y
+- CSS, SASS, Tailwind CSS, BEM
 - Git, GitHub
 - Bootstrap
 - Responsive/Mobile Design
-- Accessibility
 - HTML
+- PHP basic
+- Python basic
 
 ---
 
