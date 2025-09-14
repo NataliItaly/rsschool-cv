@@ -7,7 +7,9 @@
 nataliya.krylova2022@gmail.com
 
 - [My CV](https://nataliitaly.github.io/rsschool-cv/)
-- [Mi GitHub](https://github.com/NataliItaly)
+- [My GitHub](https://github.com/NataliItaly)
+- [My LinkedIn](www.linkedin.com/in/nataliya-krylova-171799246)
+- [My CodeWars](https://www.codewars.com/users/rsschool_9748d3fdc711bd0a)
 
 ---
 
