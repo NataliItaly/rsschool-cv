@@ -2,19 +2,24 @@
 
 ## Junior Front End Developer
 
-![My photo](profile-min.jpg)
+![My photo](profile-img-min.png)
+
+### Contacts
 
 nataliya.krylova2022@gmail.com
 
 - [My CV](https://nataliitaly.github.io/rsschool-cv/)
-- [Mi GitHub](https://github.com/NataliItaly)
+- [My GitHub](https://github.com/NataliItaly)
+- [My LinkedIn](www.linkedin.com/in/nataliya-krylova-171799246)
+- [My CodeWars](https://www.codewars.com/users/rsschool_9748d3fdc711bd0a)
 
 ---
 
 ### About Me
 
-I am a curiouse and motivated person, apassionated of Web Development.
+I am a curious and motivated person with a passion for web development.
 
+My strengths include:
 My strengths are:
 
 - flexible by nature and can quickly adapt to changing situations, quickly find a common language with people.
@@ -73,7 +78,7 @@ function combine(...objs) {
 - [Travel Portal landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Travel/)
 - [Pet's Shelter Landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFE2023Q1/shelter/index.html)
 - [Plants Landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q4/plants/)
-- - [Language School WEb Site](https://nataliitaly.github.io/Language_school/?fbclid=IwAR1ztu1sh0KJnXY-ETmNIyuAv5eXUsHbTLNMNtr01o2LbbbNWi4M2lmWalQ)
+- [Language School WEb Site](https://nataliitaly.github.io/Language_school/?fbclid=IwAR1ztu1sh0KJnXY-ETmNIyuAv5eXUsHbTLNMNtr01o2LbbbNWi4M2lmWalQ)
 
 ---
 
@@ -92,6 +97,29 @@ function combine(...objs) {
 - HTML for JavaScript Developers, itgid.info by Alexander Lushchenko
 - Web Developer by Ivan Petrichenko
 - Yaroslav Mudryi National Law University, Kharkiv, Ukraine
+
+---
+
+### Code example
+
+```
+const objA = { a: 10, b: 20, c: 30 }
+const objB = { a: 3, c: 6, d: 3 }
+combine(objA, objB) // Returns { a: 13, b: 20, c: 36, d: 3 }
+
+function combine(...objs) {
+    const result = {};
+    objs.forEach(obj  => {
+      for (let prop in obj) {
+        result[prop] = result.hasOwnProperty(prop)
+          ? result[prop] + obj[prop]
+          : obj[prop];
+      }
+    });
+    return result;
+}
+
+```
 
 ---
 
