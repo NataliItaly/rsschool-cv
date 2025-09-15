@@ -184,6 +184,7 @@
                   >JavaScript Foundations Professional Certificate by Mozilla</a
                 >
               </li>
+
               <li>
                 <a aria-label="certificate"
                   href="https://graduation.udacity.com/confirm/e/74abab22-c38c-11ed-93d3-678ffd6cdd65"
@@ -230,50 +231,6 @@
               <li>Yaroslav Mudryi National Law University, Kharkiv, Ukraine</li>
             </ul>
           </section>
-          <hr />
-          <section id="code-example">
-            <h3 class="color-grey">Code example</h3>
-            <div>
-              <h6>Combine objects</h6>
-              <p>
-                Your task is to write a function that takes two or more objects
-                and returns a new object which combines all the input objects.
-                All input object properties will have only numeric values.
-                Objects are combined together so that the values of matching
-                keys are added together.
-              </p>
-              <p>An example:</p>
-              <p>
-                const objA = <span class="function bold">{</span> a: 10, b: 20, c: 30 <span class="function bold">}</span>
-              </p>
-              <p>
-                const objB = <span class="function bold">{</span> a: 3, c: 6, d: 3 <span class="function bold">}</span>
-              </p>
-              <p>
-                combine(objA, objB) // Returns <span class="function bold">{</span> a: 13, b: 20, c: 36, d: 3 <span class="function bold">}</span></p>
-              </p>
-            </div>
-            <div class="code">
-              <pre>
-    function <span class="function bold">combine</span>(...<span class="variable bold">objs</span>) <span class="brackets-1 bold">{</span>
-      const <span class="variable bold">result</span> =
-        <span class="brackets-3 bold">{</span><span class="brackets-3 bold">}</span>;
-      <span class="variable bold">objs</span>.<span class="function bold">forEach</span>(<span class="variable bold">obj</span>  => <span class="brackets-2 bold">{</span>
-        for (let <span class="function bold">prop</span> in <span class="variable bold">obj</span>) <span class="brackets-4 bold">{</span>
-          <span class="variable bold">result</span>[<span class="function bold">prop</span>] =
-            <span class="variable bold">result</span>.hasOwnProperty(<span class="function bold">prop</span>)
-            ? <span class="variable bold">result</span>[<span class="function bold">prop</span>] + <span class="variable bold">obj</span>[<span class="function bold">prop</span>]
-            : obj[<span class="function bold">prop</span>];
-        <span class="brackets-4 bold">}</span>
-      <span class="brackets-2 bold">}</span>);
-      return <span class="variable bold">result</span>;
-    <span class="brackets-1 bold">}</span>
-                </pre>
-            </div>
-          </section>
-          <hr />
-          <section id="experience">
-            <h3>My Projects</h3>
           <section class="section section_projects" id="projects">
             <h2 class="section__title">My Projects</h2>
             <ul class="projects">
@@ -400,20 +357,6 @@
                     class="projects__img"
                     src="images/project-images/weather-app.jpeg"
                     alt="Weather App"
-                  >
-                </a>
-              </li>
-              <li class="projects__item">
-                <a aria-label="project link"
-                  class="projects__link"
-                  href="https://nataliitaly.github.io/JS-habbits-tracker/#1"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/habbits-tracker.png"
-                    alt="Habbits Tracker App"
                   >
                 </a>
               </li>
