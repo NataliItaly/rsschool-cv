@@ -108,29 +108,6 @@ function combine(...objs) {
 
 ---
 
-### Code example
-
-```
-const objA = { a: 10, b: 20, c: 30 }
-const objB = { a: 3, c: 6, d: 3 }
-combine(objA, objB) // Returns { a: 13, b: 20, c: 36, d: 3 }
-
-function combine(...objs) {
-    const result = {};
-    objs.forEach(obj  => {
-      for (let prop in obj) {
-        result[prop] = result.hasOwnProperty(prop)
-          ? result[prop] + obj[prop]
-          : obj[prop];
-      }
-    });
-    return result;
-}
-
-```
-
----
-
 ### Languages
 
 - ENGLISH C1, vast experience in translation of medical and fitness literature
