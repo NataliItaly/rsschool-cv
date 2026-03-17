@@ -91,6 +91,8 @@ function combine(...objs) {
 
 ### Education
 
+- JavaScript Fundamentas by Kharkiv IT Cluster in cooperation with EPAM Ukraine
+[certificate](https://drive.google.com/file/d/103lJqrIIPLloIGqmBEjVjzmQn9VhRgG5/view)
 - JavaScript Developer Linkedin Learning Pass, [certificate](https://www.linkedin.com/learning/certificates/8919b38c52c57f2794aea942ac021e0ba945164efab9fc4e0435aea6330e2bc7?trk=share_certificate)
 - JavaScript Foundations Professional Certificate by Mozilla, [certificate](https://www.linkedin.com/learning/certificates/3d72b92ff6a13982691e05ec84b1a3c3bdb6f22469bc279e7c63c8013b369f27?trk=share_certificate)
 - Scrimba Frontend Developer Career Path, [certificate](https://scrimba.com/certificate/uvxew7Cr/gfrontend)
