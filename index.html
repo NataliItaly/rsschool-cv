@@ -282,6 +282,29 @@
               <li>Yaroslav Mudryi National Law University, Kharkiv, Ukraine</li>
             </ul>
           </section>
+          <section class="section section_code">
+            <h2 class="section__title">Code example</h2>
+            <div class="code">
+              <div class="code__example">
+                <pre>
+                  <code>
+  import { Question, Category, Level } from '../pages/quiz/quiz.types'
+
+  export interface QuestionsFilter {
+    category?: Category
+    level?: Level
+  }
+
+  export interface QuestionsState {
+    readonly currentQuestions: Question[] | null
+    readonly selectedCategory: Category | undefined
+    readonly selectedLevel: Level | undefined
+  }
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </section>
           <section class="section section_projects" id="projects">
             <h2 class="section__title">My Projects</h2>
             <ul class="projects">
