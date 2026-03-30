@@ -465,11 +465,27 @@ body {
   position: relative;
 }
 
-.footer__year {
+.footer__col {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
   padding: 30px 0;
   grid-column: 1 / 2;
   color: #fff;
   background-color: var(--dark-bg-color);
+}
+
+.footer__year {
+
+}
+
+.rs-logo {
+  width: 50px;
+}
+
+.rs-logo img {
+  width: 100%;
 }
 
 .footer__contacts {
@@ -844,7 +860,7 @@ body {
   }
 
   .footer__btn {
-    bottom: 155px;
+    bottom: 105px;
   }
 }
 
