@@ -1,4 +1,4 @@
-import { projectsData } from './projectsData.js';
+import { projectsData, skillsData, languageData } from './data.js';
 import { toUpperCase, toDash } from './utils.js';
 
 const BURGER = document.querySelector('.burger');
@@ -57,4 +57,33 @@ projectsData.forEach((item) => {
     </li>
   `;
   projectsList.insertAdjacentHTML('beforeend', projectItem);
+});
+
+const skillsList = document.getElementById('skills-list');
+skillsData.forEach((item) => {
+  for (let key in item) {
+    const skillItemList = item[key]
+      .map((el) => `<li class='sidebar__list-item'>${el}</li>`)
+      .join('');
+
+    const skillItem = `
+      <li class="sidebar__skils-item">
+        <h3 class="sidebar__skills-title">${key}</h3>
+        <ul class="sidebar__list">
+          ${skillItemList}
+        </ul>
+      </li>
+    `;
+
+    skillsList.insertAdjacentHTML('beforeend', skillItem);
+  }
+});
+
+const languagesList = document.getElementById('languages-list');
+languageData.forEach((item) => {
+  const languageItem = `
+    <li class="sidebar__list-item">${item}</li>
+  `;
+
+  languagesList.insertAdjacentHTML('beforeend', languageItem);
 });

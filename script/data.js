@@ -56,3 +56,70 @@ export const projectsData = [
     link: 'https://nataliitaly.github.io/shelter/index.html',
   },
 ];
+
+export const skillsData = [
+  {
+    Languages: [
+      'JavaScript (ES6+)',
+      'TypeScript',
+      'HTML5',
+      'CSS3 SCSS / Sass',
+      'PHP basic',
+    ],
+  },
+  {
+    Frontend: [
+      'React',
+      'Next.js',
+      'Tailwind CSS',
+      'Alpine.js',
+      'Blade (Laravel)',
+      'Shadcn/UI',
+      'Radix UI',
+    ],
+  },
+  {
+    'Backend & API': [
+      'REST API',
+      'Laravel (basic)',
+      'Supabase Swagger/OpenAPI',
+    ],
+  },
+  {
+    'State Management': ['Zustand', 'TanStack', 'React Query'],
+  },
+  {
+    Testing: ['Vitest', 'React Testing Library'],
+  },
+  {
+    Tools: [
+      'Git GitHub',
+      'GitHub Actions',
+      'Vite',
+      'ESLint',
+      'Prettier',
+      'Husky',
+      'Monaco Editor',
+      'Docker (development environment)',
+    ],
+  },
+  {
+    'Development Practices': [
+      'Responsive Design Accessibility (WCAG)',
+      'BEM',
+      'OOP',
+      'Code Review',
+      'Team Collaboration',
+      'Agile Development',
+    ],
+  },
+];
+
+export const languageData = [
+  'ENGLISH - C1',
+  'ITALIAN - C2',
+  'TURKISH - B2',
+  'JAPANESE - A2',
+  'UKRAINIAN - native',
+  'RUSSIAN - native',
+];
