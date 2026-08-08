@@ -17,35 +17,71 @@ nataliya.krylova2022@gmail.com
 
 ### About Me
 
-I am a curious and motivated person with a passion for web development.
+Frontend Developer focused on JavaScript, TypeScript, React, and
+Next.js, with several years of self-directed learning and hands-on
+project experience. Recently completed RS School
+JavaScript/Frontend and React courses, contributing to team
+projects and taking a Team Lead role in one of them.
 
-My strengths include:
+Experienced in building responsive interfaces, working with modern
+frontend tooling, testing, CI workflows, and Git-based team
+development. Also have hands-on experience contributing to a
+Laravel-based volunteer project using Blade, Alpine.js, and
+Tailwind CSS.
 
-- flexible by nature and can quickly adapt to changing situations, quickly find a common language with people.
-- meticulous and attentive to details.
-- persistent and diligent, capable dedicate hours and hours to resolve a task.
+Currently looking for a Junior Frontend Developer position where I
+can contribute to a development team and continue growing as a
+professional developer.
 
 ### Skills
 
-- JavaScript,
-- OOP,
-- Regex,
-- TypeScript,
-- React,
-- A11Y,
-- CSS, SCSS, SASS,
-- Tailwind CSS,
-- BEM,
-- HTML
-- Alpine.js,
-- Express.js,
-- UI/UX Design,
-- Git, GitHub,
-- Bootstrap,
-- Responsive / Mobile Design,
-- Node.js basic
-- PHP basics,
-- Pyton basics
+- Languages
+  - JavaScript (ES6+)
+  - TypeScript
+  - HTML5
+  - CSS3 SCSS / Sass
+  - PHP basic
+
+- Frontend
+  - React
+  - Next.js
+  - Tailwind CSS
+  - Alpine.js
+  - Blade (Laravel)
+  - Shadcn/UI
+  - Radix UI
+
+- Backend & API
+  - REST API
+  - Laravel (basic)
+  - Supabase Swagger/OpenAPI
+
+- State Management
+  - Zustand
+  - TanStack
+  - React Query
+
+- Testing
+  - Vitest
+  - React Testing Library
+
+- Tools
+  - Git GitHub
+  - GitHub Actions
+  - Vite
+  - ESLint
+  - Prettier
+  - Husky
+  - Monaco Editor
+  - Docker (development environment)
+
+- Development Practices
+  - Responsive Design Accessibility (WCAG)
+  - BEM
+  - OOP
+  - Code Review
+  - Team Collaboration
+  - Agile Development
 
 ---
 
@@ -74,36 +110,32 @@ function combine(...objs) {
 
 ### Experience
 
+- [Smart Quiz](https://smart-quiz-rsschool-auto-team-7.netlify.app/)
+- [Not Fight Club](https://nataliitaly.github.io/not-fight-club/)
+- [Pair Em Up](https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/pair-em-up/)
+- [Virtual Music Kit](https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/virtual-music-kit/)
 - [React Movie App RESTful API](https://movie-search-app-omdb-api.netlify.app/)
-- [Ocean Web Site](https://nataliitaly.github.io/ocean/)
 - [React App Color Scheme Generator](https://gleeful-truffle-103b4f.netlify.app/)
+- [Ocean Web Site](https://nataliitaly.github.io/ocean/)
 - [React Weather App](https://graceful-bienenstitch-7cef1d.netlify.app/)
 - [JavaScript NoWarMomentum App](https://nataliitaly.github.io/NoWarMomentum/)
 - [JavaScript Momentum App](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Momentum/)
 - [JavaScript Weather App](https://weather-app-project-3-udacity.netlify.app/)
-- [Floral Boutique Landing Page](https://nataliitaly.github.io/Floral-boutique-JS/)
 - [JavaScript Eco Sound App](https://nataliitaly.github.io/file-storage/?fbclid=IwAR1Ou9pcPwRdB9r34f3O6_lqjedecdETb8wiOlrmBiedO51GbuwAV94PRwQ)
-- [Italian food Blog](https://nataliitaly.github.io/Italian-taste-personal-blog/)
-- [Portfolio Landing Page](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL/portfolio/?fbclid=IwAR1KRb_ScotvxtYlX2ynqv0j2LqSj_P_f7FUvOihW1T89udU_PKfdMdxhm4)
-
 
 ---
 
 ### Education
 
+- RS School REACT 2026 Q2, [certificate](https://app.rs.school/certificate/m51gqhek)
+- RS School JavaScript / Frontend Q3 2025, [certificate](https://app.rs.school/certificate/00j4ls2b)
+- JavaScript Fundamentas by Kharkiv IT Cluster in cooperation with EPAM Ukraine, [certificate](https://drive.google.com/file/d/103lJqrIIPLloIGqmBEjVjzmQn9VhRgG5/view?pli=1)
 - JavaScript Developer Linkedin Learning Pass, [certificate](https://www.linkedin.com/learning/certificates/8919b38c52c57f2794aea942ac021e0ba945164efab9fc4e0435aea6330e2bc7?trk=share_certificate)
 - JavaScript Foundations Professional Certificate by Mozilla, [certificate](https://www.linkedin.com/learning/certificates/3d72b92ff6a13982691e05ec84b1a3c3bdb6f22469bc279e7c63c8013b369f27?trk=share_certificate)
 - Scrimba Frontend Developer Career Path, [certificate](https://scrimba.com/certificate/uvxew7Cr/gfrontend)
 - Udacity Frontend Developer Nanodegree Programm, [certificate](https://graduation.udacity.com/confirm/e/74abab22-c38c-11ed-93d3-678ffd6cdd65)
-- JS/FE PRE-SCHOOL 2022 (JAVASCRIPT) The Rolling Scopes School, [certificate](https://app.rs.school/certificate/7bsu0gyv)
-- React Development Workshop from SheCodes, [certificate](https://www.shecodes.io/certificates/6421df6640ae802df2f731c2b3819d1a)
-- CSS Linkedin Learning Pass, [certificate](https://www.linkedin.com/learning/certificates/eb36c5e95905022052c0444de242f1f330bddb537cad22c328c0f1fb30d39f6d?trk=share_certificate)
-- Advance Skills in HTML Linkedin Learning Pass, [certificate](https://www.linkedin.com/learning/certificates/cf90fa9dd570dc712b6e696685a8a20fc04d86af62a3c7331c707cbe32899d2e?trk=share_certificate)
-- Accessibility (a11y) Best Practices Linkedin Learning Pass, [certificate](https://www.linkedin.com/learning/certificates/7abd943c38e1065d194651b7c6aa89cec4e4b2beada7639cb22a3a24ddcd63f2?trk=share_certificate)
-- Exploring a Career in User Experience Design Linkedin Learning Pass, [certificate](https://www.linkedin.com/learning/certificates/d821b2e832685c86dc9f0a94d7e26ef2b1cd8e1f3bb7d110394b7c5f5c5c2590?trk=share_certificate)
 - Coursera Google UX Design Certificate, [certificate](https://www.credly.com/badges/910d15af-aebf-4381-b4e1-5d1a019f05f1/public_url)
 - Coursera Google IT Support Certificate
-- FreeCodeCamp Responsive Web Design, [certificate](https://www.freecodecamp.org/certification/fcc9245ea3b-83ad-4998-86fb-ef89c9da64f9/responsive-web-design)
 - Yaroslav Mudryi National Law University, Kharkiv, Ukraine
 
 ---
@@ -112,7 +144,7 @@ function combine(...objs) {
 
 - ENGLISH C1, vast experience in translation of medical and fitness literature
 - ITALIAN C2
-- JAPANESE A2
 - TURKISH B2
+- JAPANESE A2
 - UKRAINIAN native
 - RUSSIAN native
