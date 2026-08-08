@@ -1,4 +1,10 @@
-import { projectsData, skillsData, languageData } from './data.js';
+import {
+  projectsData,
+  skillsData,
+  languageData,
+  educationData,
+  contactsData,
+} from './data.js';
 import { toUpperCase, toDash } from './utils.js';
 
 const BURGER = document.querySelector('.burger');
@@ -86,4 +92,41 @@ languageData.forEach((item) => {
   `;
 
   languagesList.insertAdjacentHTML('beforeend', languageItem);
+});
+
+const educationList = document.getElementById('education-list');
+educationData.forEach((item) => {
+  const educationItem = `
+    <li>
+      <a
+        aria-label="certificate"
+        href="${item.link ? item.link : ''}"
+        target="_blank"
+      >
+        ${item.name}
+      </a>
+    </li>
+  `;
+  educationList.insertAdjacentHTML('beforeend', educationItem);
+});
+
+const headerContactsList = document.getElementById('header-contacts-list');
+const footerContactsList = document.getElementById('footer-contacts-list');
+
+contactsData.forEach((item) => {
+  const itemClass = item.name.toLowerCase();
+  const contactItem = `
+    <li class="contacts__item">
+      <a
+        aria-label="phone link"
+        href="${item.href}"
+        class="contacts__link ${itemClass}"
+      >
+        <span class="visualy-hidden">${item.name}</span>
+      </a>
+    </li>
+  `;
+
+  headerContactsList.insertAdjacentHTML('beforeend', contactItem);
+  footerContactsList.insertAdjacentHTML('beforeend', contactItem);
 });

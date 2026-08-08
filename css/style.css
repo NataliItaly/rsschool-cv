@@ -468,7 +468,7 @@ body {
   background-position-y: center;
   font-size: 0.7rem;
   color: #131313;
-  transition: 0.3s all ease;
+  transition: 0.5s all ease-in;
   filter: invert(99%) sepia(6%) saturate(5%) hue-rotate(247deg) brightness(105%)
     contrast(100%);
   -webkit-border-radius: 50%;
@@ -534,9 +534,6 @@ body {
   background-color: var(--dark-bg-color);
 }
 
-.footer__year {
-}
-
 .rs-logo {
   width: 50px;
 }
@@ -559,15 +556,11 @@ body {
   gap: 20px;
 }
 
-.footer__link {
+.footer .contacts__link {
   filter: none;
   -webkit-filter: none;
   filter: brightness(0) saturate(100%) invert(13%) sepia(100%) saturate(793%)
     hue-rotate(186deg) brightness(98%) contrast(94%);
-  /*filter: brightness(0) saturate(100%) invert(9%) sepia(51%) saturate(2569%)
-    hue-rotate(201deg) brightness(94%) contrast(98%);*/
-  /*filter: brightness(0) saturate(100%) invert(59%) sepia(9%) saturate(946%)
-    hue-rotate(176deg) brightness(89%) contrast(88%);*/
 }
 
 .footer__btn {
