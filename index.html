@@ -48,61 +48,10 @@
         </div>
         <div class="contacts header__contacts">
           <h3 class="visualy-hidden">Contacts</h3>
-          <ul class="header__contacts-list contacts__list">
-            <li class="contacts__item">
-              <a href="tel:+393895922455" class="contacts__link phone">
-                <span class="visualy-hidden">phone</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="email link"
-                href="mailto:nataliya.krylova2022@gmail.com"
-                class="contacts__link email"
-              >
-                <span class="visualy-hidden">email</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="Linkedin link"
-                href="https://www.linkedin.com/in/nataliya-krylova-171799246"
-                class="contacts__link linkedin"
-              >
-                <span class="visualy-hidden">Linkedin</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="GitHub link"
-                href="https://github.com/NataliItaly"
-                class="contacts__link github"
-                target="_blank"
-              >
-                <span class="visualy-hidden">GitHub</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="CodeWars link"
-                href="https://www.codewars.com/users/rsschool_9748d3fdc711bd0a"
-                class="contacts__link codewars"
-                target="_blank"
-              >
-                <span class="visualy-hidden">CodeWars</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="Discord link"
-                href="https://discordapp.com/users/NataliItaly#8959/"
-                class="contacts__link discord"
-                target="_blank"
-              >
-                <span class="visualy-hidden">Discord</span>
-              </a>
-            </li>
-          </ul>
+          <ul
+            class="header__contacts-list contacts__list"
+            id="header-contacts-list"
+          ></ul>
         </div>
         <div class="header__info">
           <div class="header__info-data">
@@ -253,8 +202,8 @@
           </section>
           <section class="section" id="education">
             <h2 class="section__title">Education</h2>
-            <ul class="main__list">
-              <li>
+            <ul class="main__list" id="education-list">
+              <!-- <li>
                 <a
                   aria-label="certificate"
                   href="https://app.rs.school/certificate/m51gqhek"
@@ -332,7 +281,7 @@
                   Coursera Google IT Support Certificate
                 </a>
               </li>
-              <li>Yaroslav Mudryi National Law University, Kharkiv, Ukraine</li>
+              <li>Yaroslav Mudryi National Law University, Kharkiv, Ukraine</li> -->
             </ul>
           </section>
           <section class="section section_code">
@@ -360,218 +309,7 @@
           </section>
           <section class="section section_projects" id="projects">
             <h2 class="section__title">My Projects</h2>
-            <ul class="projects" id="projects-list">
-              <!-- <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://smart-quiz-rsschool-auto-team-7.netlify.app/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/smart-quiz.png"
-                    alt="Smart Quiz"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://nataliitaly.github.io/not-fight-club/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/not-fight-club.png"
-                    alt="Not Fight Club"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://movie-search-app-omdb-api.netlify.app/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/movie-app.jpeg"
-                    alt="React Movie App RESTful API"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/pair-em-up/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="./images/project-images/pair-em-up.jpeg"
-                    alt="Pair Em Up"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/virtual-music-kit/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="./images/project-images/virtual-music-kit.jpeg"
-                    alt="Virtual Music Kit"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://nataliitaly.github.io/ocean/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/ocean.png"
-                    alt="Ocean Web Site"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://gleeful-truffle-103b4f.netlify.app/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/colors-app.jpeg"
-                    alt="React App Color Scheme Generator"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://graceful-bienenstitch-7cef1d.netlify.app/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/react-weather-app.jpeg"
-                    alt="React Weather App"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://nataliitaly.github.io/NoWarMomentum/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/nowar-momentum.jpeg"
-                    alt="No War App"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Momentum/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/momentum.png"
-                    alt="Momentum App"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://weather-app-project-3-udacity.netlify.app"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/weather-app.jpeg"
-                    alt="Weather App"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://nataliitaly.github.io/cssMemeSlider/"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/meme-slider.png"
-                    alt="Meme slider"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://nataliitaly.github.io/file-storage/?fbclid=IwAR03zqu85H5_TBWNy6B8khLX5dhFiZfMMihadcU5ZwzL5Ds-sPXEKdJIjSk"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/eco-sound.jpeg"
-                    alt="Eco Sound App"
-                  />
-                </a>
-              </li>
-              <li class="projects__item">
-                <a
-                  aria-label="project link"
-                  class="projects__link"
-                  href="https://nataliitaly.github.io/shelter/index.html"
-                  target="_blank"
-                >
-                  <span class="projects__description"></span>
-                  <img
-                    class="projects__img"
-                    src="images/project-images/pets-shelter.jpeg"
-                    alt="Pet's Shelter Web Site"
-                  />
-                </a>
-              </li> -->
-            </ul>
+            <ul class="projects" id="projects-list"></ul>
             <button class="projects__btn" type="button">Show More</button>
           </section>
         </article>
@@ -599,65 +337,10 @@
         </div>
         <div class="contacts footer__contacts">
           <h3 class="visualy-hidden">Contacts</h3>
-          <ul class="footer__list contacts__list">
-            <li class="contacts__item">
-              <a
-                aria-label="phone link"
-                href="tel:+393895922455"
-                class="footer__link contacts__link phone"
-              >
-                <span class="visualy-hidden">phone</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="email link"
-                href="mailto:nataliya.krylova2022@gmail.com"
-                class="footer__link contacts__link email"
-              >
-                <span class="visualy-hidden">email</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="linkedin link"
-                href="https://www.linkedin.com/in/nataliya-krylova-171799246"
-                class="footer__link contacts__link linkedin"
-              >
-                <span class="visualy-hidden">Linkedin</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="GitHub link"
-                href="https://github.com/NataliItaly"
-                class="footer__link contacts__link github"
-                target="_blank"
-              >
-                <span class="visualy-hidden">GitHub</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="CodeWars link"
-                href="https://www.codewars.com/users/rsschool_9748d3fdc711bd0a"
-                class="footer__link contacts__link codewars"
-                target="_blank"
-              >
-                <span class="visualy-hidden">CodeWars</span>
-              </a>
-            </li>
-            <li class="contacts__item">
-              <a
-                aria-label="Discord link"
-                href="https://discordapp.com/users/NataliItaly#8959/"
-                class="footer__link contacts__link discord"
-                target="_blank"
-              >
-                <span class="visualy-hidden">Discord</span>
-              </a>
-            </li>
-          </ul>
+          <ul
+            class="footer__list contacts__list"
+            id="footer-contacts-list"
+          ></ul>
         </div>
         <a href="#header" class="footer__btn" aria-label="Go to header.">
           &uarr;
