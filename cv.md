@@ -85,6 +85,42 @@ professional developer.
 
 ---
 
+### Experience
+
+#### Swagger Editor | RS School Final Team Project
+
+- Developed a Swagger/OpenAPI Editor using Next.js, React, TypeScript, and Monaco Editor.
+- Implemented OpenAPI parsing and validation with Swagger Parser.
+- Built API request functionality for REST endpoints.
+- Managed application state with Zustand and server state with TanStack React Query.
+- Created a responsive UI using Tailwind CSS, Shadcn/UI, and Radix UI.
+- Added internationalization using next-intl.
+- Configured code quality with ESLint, Prettier, Husky, and lint-staged.
+- Wrote unit tests using Vitest and React Testing Library.
+
+#### Smart Quiz | RS School Final Team Project
+
+Role: Team Lead of a small team of student / Frontend Developer
+
+- Led a team during the development of the final RS School project.
+- Organized team workflow, task planning, and feature distribution.
+- Configured the project architecture and development environment.
+- Set up ESLint, Prettier, Husky, and project quality standards.
+- Managed the Git workflow, code reviews, and pull request integration.
+- Configured automated testing and build process.
+- Participated in application development, debugging, and testing.
+- Collaborated with teammates using GitHub Issues and Pull Requests.
+
+#### Photographer Portfolio Website (Volunteer Project)
+
+- Developed responsive UI components using Blade, Alpine.js.
+- Customized Tailwind CSS to implement a complex, non-standard design system.
+- Implemented reusable frontend templates within a Laravel application.
+- Collaborated with experienced developers in a real-world development environment.
+- Worked with a Docker-based local development setup.
+
+---
+
 ### Code example
 
 ```
@@ -108,18 +144,17 @@ function combine(...objs) {
 
 ---
 
-### Experience
+### Projects
 
 - [Smart Quiz](https://smart-quiz-rsschool-auto-team-7.netlify.app/)
 - [Not Fight Club](https://nataliitaly.github.io/not-fight-club/)
-- [Pair Em Up](https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/pair-em-up/)
-- [Virtual Music Kit](https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/virtual-music-kit/)
+- [Pair Em Up](https://nataliitaly.github.io/nataliitaly-JSFE2025Q3/pair-em-up/)
+- [Virtual Music Kit](https://nataliitaly.github.io/nataliitaly-JSFE2025Q3/virtual-music-kit/)
 - [React Movie App RESTful API](https://movie-search-app-omdb-api.netlify.app/)
 - [React App Color Scheme Generator](https://gleeful-truffle-103b4f.netlify.app/)
 - [Ocean Web Site](https://nataliitaly.github.io/ocean/)
 - [React Weather App](https://graceful-bienenstitch-7cef1d.netlify.app/)
 - [JavaScript NoWarMomentum App](https://nataliitaly.github.io/NoWarMomentum/)
-- [JavaScript Momentum App](https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Momentum/)
 - [JavaScript Weather App](https://weather-app-project-3-udacity.netlify.app/)
 - [JavaScript Eco Sound App](https://nataliitaly.github.io/file-storage/?fbclid=IwAR1Ou9pcPwRdB9r34f3O6_lqjedecdETb8wiOlrmBiedO51GbuwAV94PRwQ)
 
@@ -135,7 +170,7 @@ function combine(...objs) {
 - Scrimba Frontend Developer Career Path, [certificate](https://scrimba.com/certificate/uvxew7Cr/gfrontend)
 - Udacity Frontend Developer Nanodegree Programm, [certificate](https://graduation.udacity.com/confirm/e/74abab22-c38c-11ed-93d3-678ffd6cdd65)
 - Coursera Google UX Design Certificate, [certificate](https://www.credly.com/badges/910d15af-aebf-4381-b4e1-5d1a019f05f1/public_url)
-- Coursera Google IT Support Certificate
+- Coursera Google IT Support Certificate, [certificate](https://coursera.org/share/840fba0d112b3341452f05db46f8e7cd)
 - Yaroslav Mudryi National Law University, Kharkiv, Ukraine
 
 ---
