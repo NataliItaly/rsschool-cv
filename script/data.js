@@ -1,5 +1,9 @@
 export const projectsData = [
   {
+    name: 'swagger editor',
+    link: 'https://swagger-editor-git-main-krylova.vercel.app/',
+  },
+  {
     name: 'smart quiz',
     link: 'https://smart-quiz-rsschool-auto-team-7.netlify.app/',
   },
@@ -13,12 +17,16 @@ export const projectsData = [
   },
   {
     name: 'pair em up',
-    link: 'https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/pair-em-up/',
+    link: 'https://nataliitaly.github.io/nataliitaly-JSFE2025Q3/pair-em-up/',
   },
   {
     name: 'virtual music kit',
-    link: 'https://rolling-scopes-school.github.io/nataliitaly-JSFE2025Q3/virtual-music-kit/',
+    link: 'https://nataliitaly.github.io/nataliitaly-JSFE2025Q3/virtual-music-kit/',
   },
+  /* {
+    name: 'dashboard',
+    link: 'https://nataliitaly.github.io/nataliitaly-JSFEPRESCHOOL2026Q1/dashboard/',
+  }, */
   {
     name: 'ocean',
     link: 'https://nataliitaly.github.io/ocean/',
@@ -35,10 +43,7 @@ export const projectsData = [
     name: 'no war app',
     link: 'https://nataliitaly.github.io/NoWarMomentum/',
   },
-  {
-    name: 'momentum',
-    link: 'https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Momentum/',
-  },
+
   {
     name: 'weather app',
     link: 'https://weather-app-project-3-udacity.netlify.app',
@@ -56,6 +61,11 @@ export const projectsData = [
     link: 'https://nataliitaly.github.io/shelter/index.html',
   },
 ];
+
+/* {
+    name: 'momentum',
+    link: 'https://rolling-scopes-school.github.io/nataliitaly-JSFEPRESCHOOL2022Q2/Momentum/',
+  }, */
 
 export const skillsData = [
   {
