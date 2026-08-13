@@ -36,7 +36,8 @@ a:hover {
 
 h1,
 h2,
-h3 {
+h3,
+.experience__links {
   font-weight: inherit;
   font-size: inherit;
   font-family: 'IBM Plex Serif', serif;
@@ -301,6 +302,15 @@ body {
   font-size: 16px;
 }
 
+.experience__links a {
+  display: inline-block;
+  margin: 5px 0 5px 20px;
+}
+
+.experience__role {
+  padding-left: 20px;
+}
+
 .experience__list {
   list-style-type: none;
 }
@@ -311,7 +321,6 @@ body {
 
 .experience__title {
   font-size: 20px;
-  margin-bottom: 10px;
 }
 
 .experience__details-list {

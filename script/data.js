@@ -1,5 +1,9 @@
 export const projectsData = [
   {
+    name: 'swagger editor',
+    link: 'https://swagger-editor-git-main-krylova.vercel.app/',
+  },
+  {
     name: 'smart quiz',
     link: 'https://smart-quiz-rsschool-auto-team-7.netlify.app/',
   },
