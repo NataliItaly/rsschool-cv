@@ -144,7 +144,7 @@ export const educationData = [
     link: 'https://app.rs.school/certificate/00j4ls2b',
   },
   {
-    name: 'JavaScript Fundamentas by Kharkiv IT Cluster in cooperation',
+    name: 'JavaScript Fundamentas by Kharkiv IT Cluster in cooperation with EPAM Learning',
     link: 'https://drive.google.com/file/d/103lJqrIIPLloIGqmBEjVjzmQn9VhRgG5/view',
   },
   {
