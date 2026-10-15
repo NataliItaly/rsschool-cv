@@ -8,6 +8,14 @@ export const projectsData = [
     link: 'https://smart-quiz-rsschool-auto-team-7.netlify.app/',
   },
   {
+    name: 'memory game',
+    link: 'https://nataliitaly.github.io/memory-game/',
+  },
+  {
+    name: 'no war app',
+    link: 'https://nataliitaly.github.io/NoWarMomentum/',
+  },
+  {
     name: 'not fight club',
     link: 'https://nataliitaly.github.io/not-fight-club/',
   },
@@ -39,11 +47,6 @@ export const projectsData = [
     name: 'react weather app',
     link: 'https://graceful-bienenstitch-7cef1d.netlify.app/',
   },
-  {
-    name: 'no war app',
-    link: 'https://nataliitaly.github.io/NoWarMomentum/',
-  },
-
   {
     name: 'weather app',
     link: 'https://weather-app-project-3-udacity.netlify.app',
